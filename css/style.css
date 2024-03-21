@@ -1522,3 +1522,10 @@ p {
 .nav-clasi li a.select::after {
     width: 100%;
 }
+
+.sesion{
+    height: 50px;
+    width: 300px;
+    background-color: gray;
+    display: flex;
+}

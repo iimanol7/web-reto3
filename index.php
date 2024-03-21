@@ -1,3 +1,11 @@
+<?php
+error_reporting(0);
+    //inicio la sesión
+    session_start();
+    //la guardo en una variable para mayor rapidez
+    $nombresesion =$_SESSION['sesion'];
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +19,19 @@
 </head>
 
 <body>
+    <?php
+    //si hay alguna sesión iniciada
+    if($nombresesion !=null || $nombresesion !="" ){
+        //creo un div con el nombre del usuario 
+        echo "<div class='sesion'>";
+        //sesíon del usuario
+        echo "<p>".$nombresesion['nombre']."</p>" ;
+        
+        echo "<a href='php/cerrar_sesion.php'>cerrar sesión</a>";
+
+        echo "</div>";
+    }
+    ?>
     <!-- menú de navegación de la página web -->
     <header>
         <a href="index.html" class="logo">

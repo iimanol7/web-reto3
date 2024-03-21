@@ -61,7 +61,6 @@ if (document.getElementById('pass-checkbox')) {
     const surname = document.getElementById('surname')
 
     form.addEventListener('submit', (e) => {
-        e.preventDefault();
         //reinicio valor del error (para que no se repita cada vez)
         error.innerHTML = ""
         //(expresión regular para validar el formato del email)
@@ -96,14 +95,9 @@ if (document.getElementById('pass-checkbox')) {
         if (esCorrecto) {
             //Doy la bienvenida al usuario
             alert("Registro realizado correctamente. Bienvenido, " + name.value + " " + surname.value + ".")
-            //Vacio los campos de texto
-            name.value = ""
-            surname.value = ""
-            mail.value = ""
-            pass.value = ""
-            repeatPass.value = ""
-            //Cierro el formulario
-            formSection.classList.remove('visible')
+
+        }else{
+            e.preventDefault();
         }
 
     })
