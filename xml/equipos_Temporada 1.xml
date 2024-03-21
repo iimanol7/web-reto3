@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="equipos.xsl"?>
+<equipos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="equipos.xsd" temp="Temporada 1">
+  <equipo id="equipo1">
+  	<nombre>FCBarcelona</nombre>
+  	<escudo>FCBarcelona.png</escudo>
+	</equipo>
+  <equipo id="equipo2">
+  	<nombre>Real Zaragoza</nombre>
+  	<escudo>Real Zaragoza.png</escudo>
+	</equipo>
+  <equipo id="equipo3">
+  	<nombre>Base Sevilla</nombre>
+  	<escudo>Base Sevilla.png</escudo>
+	</equipo>
+  <equipo id="equipo4">
+  	<nombre>Athletic</nombre>
+  	<escudo>Athletic.png</escudo>
+	</equipo>
+  <equipo id="equipo5">
+  	<nombre>Ciudad de Salamanca</nombre>
+  	<escudo>Ciudad de Salamanca.png</escudo>
+	</equipo>
+  <equipo id="equipo6">
+  	<nombre>Real Madrid</nombre>
+  	<escudo>Real Madrid.png</escudo>
+	</equipo>
+</equipos>

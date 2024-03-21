@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="clasificacion.xsl"?>
+<clasificacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="clasificacion.xsd" temp="Temporada 2">
+ <posicion num="1">
+ 	<equipo>
+			<escudo>Base Sevilla.png</escudo>
+			<nombre>Base Sevilla</nombre>
+ 	</equipo>
+ 	<puntos>15</puntos>
+		<jugados>10</jugados>
+  	<ganados>3</ganados>
+ 	 <empatados>6</empatados>
+ 	<perdidos>1</perdidos>
+  	<goles-favor>44</goles-favor>
+     <goles-contra>48</goles-contra>
+ </posicion>
+ <posicion num="2">
+ 	<equipo>
+			<escudo>Real Zaragoza.png</escudo>
+			<nombre>Real Zaragoza</nombre>
+ 	</equipo>
+ 	<puntos>14</puntos>
+		<jugados>10</jugados>
+  	<ganados>3</ganados>
+ 	 <empatados>5</empatados>
+ 	<perdidos>2</perdidos>
+  	<goles-favor>19</goles-favor>
+     <goles-contra>17</goles-contra>
+ </posicion>
+ <posicion num="3">
+ 	<equipo>
+			<escudo>Athletic.png</escudo>
+			<nombre>Athletic</nombre>
+ 	</equipo>
+ 	<puntos>14</puntos>
+		<jugados>10</jugados>
+  	<ganados>2</ganados>
+ 	 <empatados>8</empatados>
+ 	<perdidos>0</perdidos>
+  	<goles-favor>54</goles-favor>
+     <goles-contra>22</goles-contra>
+ </posicion>
+ <posicion num="4">
+ 	<equipo>
+			<escudo>Real Madrid.png</escudo>
+			<nombre>Real Madrid</nombre>
+ 	</equipo>
+ 	<puntos>11</puntos>
+		<jugados>10</jugados>
+  	<ganados>2</ganados>
+ 	 <empatados>5</empatados>
+ 	<perdidos>3</perdidos>
+  	<goles-favor>49</goles-favor>
+     <goles-contra>52</goles-contra>
+ </posicion>
+ <posicion num="5">
+ 	<equipo>
+			<escudo>FCBarcelona.png</escudo>
+			<nombre>FCBarcelona</nombre>
+ 	</equipo>
+ 	<puntos>9</puntos>
+		<jugados>10</jugados>
+  	<ganados>1</ganados>
+ 	 <empatados>6</empatados>
+ 	<perdidos>3</perdidos>
+  	<goles-favor>18</goles-favor>
+     <goles-contra>42</goles-contra>
+ </posicion>
+ <posicion num="6">
+ 	<equipo>
+			<escudo>Ciudad de Salamanca.png</escudo>
+			<nombre>Ciudad de Salamanca</nombre>
+ 	</equipo>
+ 	<puntos>9</puntos>
+		<jugados>10</jugados>
+  	<ganados>1</ganados>
+ 	 <empatados>6</empatados>
+ 	<perdidos>3</perdidos>
+  	<goles-favor>18</goles-favor>
+     <goles-contra>21</goles-contra>
+ </posicion>
+</clasificacion>

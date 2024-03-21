@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo-equipo.xsl"?>
+<equipo nombre="ATHLETIC" escudo="../img/Athletic.png" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validacion-equipo.xsd">
+
+    <componente tipo="entrenador">
+        <imagen>e1.png</imagen>
+        <nombre>Garazi</nombre>
+        <apellidos>Arrumbarrena</apellidos>
+        <posicion>null</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j1.png</imagen>
+        <nombre>Carmen</nombre>
+        <apellidos>Campos</apellidos>
+        <posicion>Portera</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j2.png</imagen>
+        <nombre>Ángelica</nombre>
+        <apellidos>Buenache</apellidos>
+        <posicion>Lateral Izquierdo</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j3.png</imagen>
+        <nombre>Laura</nombre>
+        <apellidos>Gil</apellidos>
+        <posicion>Lateral Derecho</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j4.png</imagen>
+        <nombre>Sara</nombre>
+        <apellidos>Higuero</apellidos>
+        <posicion>Extremo Izquierda</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j5.png</imagen>
+        <nombre>Ángela</nombre>
+        <apellidos>Montejo</apellidos>
+        <posicion>Extremo Derecha</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j6.png</imagen>
+        <nombre>Celia</nombre>
+        <apellidos>Acuña</apellidos>
+        <posicion>Pivote</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j7.png</imagen>
+        <nombre>Nerea</nombre>
+        <apellidos>Pozo</apellidos>
+        <posicion>Central</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j8.png</imagen>
+        <nombre>Adriana </nombre>
+        <apellidos>Flores</apellidos>
+        <posicion>Extremo derecha</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j9.png</imagen>
+        <nombre>Isabel </nombre>
+        <apellidos>Vargas</apellidos>
+        <posicion>Lateral izquierdo</posicion>
+    </componente>
+    
+</equipo>

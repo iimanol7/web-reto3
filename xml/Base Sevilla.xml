@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo-equipo.xsl"?>
+<equipo nombre="SEVILLA" escudo="../img/Base Sevilla.png" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validacion-equipo.xsd">
+
+    <componente tipo="entrenador">
+        <imagen>e6.png</imagen>
+        <nombre>Mariano </nombre>
+        <apellidos>Sanchez</apellidos>
+        <posicion>null</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j37.png</imagen>
+        <nombre>Lara </nombre>
+        <apellidos>González </apellidos>
+        <posicion>Portera</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j38.png</imagen>
+        <nombre>Maitane </nombre>
+        <apellidos>Etxeberria </apellidos>
+        <posicion>Lateral Izquierdo</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j39.png</imagen>
+        <nombre>Amaia </nombre>
+        <apellidos>González </apellidos>
+        <posicion>Lateral Derecho</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j40.png</imagen>
+        <nombre>Jennifer </nombre>
+        <apellidos>Gutiérrez</apellidos>
+        <posicion>Extremo Izquierda</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j41.png</imagen>
+        <nombre>Anna </nombre>
+        <apellidos>Montañana </apellidos>
+        <posicion>Extremo Derecha</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j42.png</imagen>
+        <nombre>Mireya </nombre>
+        <apellidos>González </apellidos>
+        <posicion>Pivote</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j43.png</imagen>
+        <nombre>Ester </nombre>
+        <apellidos>Somaza </apellidos>
+        <posicion>Central</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j44.png</imagen>
+        <nombre>Sandra  </nombre>
+        <apellidos>González </apellidos>
+        <posicion>Portera</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j45.png</imagen>
+        <nombre>Gabriela  </nombre>
+        <apellidos>Pérez </apellidos>
+        <posicion>Pivote</posicion>
+    </componente>
+    
+</equipo>

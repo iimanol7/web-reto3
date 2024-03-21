@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Jornadas</title>
+    <link rel="shortcut icon" href="img/logo-liga.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- menú de navegación de la página web -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/logo-liga.png" alt="RFEBM" width="120px">
+        </a>
+        <div class="titulo">
+            <h1>REAL FEDERACION ESPAÑOLA DE BALONMANO</h1>
+        </div>
+        <div class="poligon"></div>
+        
+        <nav id="nav">
+            <!-- botón de cerrar para el menú para móviles -->
+            <img src="img/close-menu.png" class="close-menu" id="close-menu">
+            <ul class="menu-horizontal">
+                <li><a href="index.html">Inicio</a></li>
+                <li>
+                    <a href="equipos.xml">Equipos</a>
+                    <ul class="menu-vertical">
+                        <li><a href="xml/bilbao.xml">Bilbao</a></li>
+                        <li><a href="xml/barcelona.xml">Barcelona</a></li>  
+                        <li><a href="xml/madrid.xml">Madrid</a></li>
+                        <li><a href="xml/zaragoza.xml">Zaragoza</a></li>
+                        <li><a href="xml/salamanca.xml">Salamanca</a></li>
+                        <li><a href="xml/sevilla.xml">Sevilla</a></li>
+                    </ul>
+                </li>
+                <li><a href="calendario.html" class="select">Jornadas</a></li>
+                <li><a href="clasificacion.xml">Clasificacion</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+        </nav>
+        <!-- botón de apertura del menú para móviles -->
+        <img src="img/open-menu.png" class="open-menu" id="open-menu">
+    </header>
+
+    <!-- Contenido de la página web -->
+    <main class="main-jornadas">
+
+        <section class="container-cambiar-temporada">
+            <a href="anterior/resultados.html" class="cambiar-temporada">Ver temporada anterior</a>
+        </section>
+
+        <section class="container-jornadas">
+            <section class="jornadas">
+                <ul class="ul-jornadas">
+                    <li class="jornada" id="jornada1">
+                        <h3>JORNADA 1</h3>
+                        <div class="partido">
+                            <img src="img/bilbao.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/barcelona.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/madrid.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>15:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/zaragoza.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/sevilla.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>18:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/salamanca.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada2">
+                        <h3>JORNADA 2</h3>
+                        <div class="partido">
+                            <img src="img/salamanca.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/bilbao.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/zaragoza.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>15:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/sevilla.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/barcelona.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/madrid.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada3">
+                        <h3>JORNADA 3</h3>
+                        <div class="partido">
+                            <img src="img/madrid.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/bilbao.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/barcelona.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/zaragoza.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/salamanca.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/sevilla.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada4">
+                        <h3>JORNADA 4</h3>
+                        <div class="partido">
+                            <img src="img/zaragoza.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/bilbao.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/salamanca.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/madrid.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/sevilla.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/barcelona.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada5">
+                        <h3>JORNADA 5</h3>
+                        <div class="partido">
+                            <img src="img/barcelona.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/salamanca.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/bilbao.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/sevilla.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/madrid.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/zaragoza.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada6">
+                        <h3>JORNADA 6</h3>
+                        <div class="partido">
+                            <img src="img/barcelona.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/bilbao.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/zaragoza.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/madrid.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/salamanca.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/sevilla.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada7">
+                        <h3>JORNADA 7</h3>
+                        <div class="partido">
+                            <img src="img/bilbao.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/salamanca.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/sevilla.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/zaragoza.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/madrid.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/barcelona.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada8">
+                        <h3>JORNADA 8</h3>
+                        <div class="partido">
+                            <img src="img/bilbao.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/madrid.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/zaragoza.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/barcelona.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/sevilla.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/salamanca.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada9">
+                        <h3>JORNADA 9</h3>
+                        <div class="partido">
+                            <img src="img/bilbao.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/zaragoza.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/madrid.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/salamanca.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/barcelona.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/sevilla.png"
+                                width="100px">
+                        </div>
+                    </li>
+                    <li class="jornada" id="jornada10">
+                        <h3>JORNADA 10</h3>
+                        <div class="partido">
+                            <img src="img/salamanca.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p>VS</p>
+                            </div><img
+                                src="img/barcelona.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/sevilla.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/bilbao.png"
+                                width="100px">
+                        </div>
+                        <div class="partido">
+                            <img src="img/zaragoza.png"
+                                width="100px">
+                            <div class="hora-partido">
+                                <p>12:00</p>
+                                <p></p>VS
+                            </div><img
+                                src="img/madrid.png"
+                                width="100px">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+        </section>
+        <!-- botones para cambiar la jornada -->
+        <section class="jornadas-btn" id="jornadas-btn">
+            <a class="a1"  href="#jornada1">1</a>
+            <a class="a2"  href="#jornada2">2</a>
+            <a class="a3"  href="#jornada3">3</a>
+            <a class="a4"  href="#jornada4">4</a>
+            <a class="a5"  href="#jornada5">5</a>
+            <a class="a6"  href="#jornada6">6</a>
+            <a class="a7 " href="#jornada7">7</a>
+            <a class="a8"  href="#jornada8">8</a>
+            <a class="a9"  href="#jornada9">9</a>
+            <a class="a10" href="#jornada10">10</a>
+        </section>
+
+        <!-- Botón para cambiar color de la página web -->
+        <section class="fix-btn">
+            <img src="img/luna.png" alt="modo-oscuro" class="icon-tema" id="icon-tema">
+        </section>
+    </main>
+
+    <!-- Pie de página de la web -->
+    <footer>
+        <section class="top-footer">
+
+            <div class="contacto">
+                <h3>CONTACTO</h3>
+                <ul>
+                    <li><img src="img/icon-telefono.png" width="25px">+34 915 48 35 58</li>
+                    <li><img src="img/icon-fax.png" width="25px">+34 915 42 70 49</li>
+                    <li><img src="img/icon-mail.png" width="25px"><a href="mailto:rfebm@rfebm.com">rfebm@rfebm.com</a>
+                    </li>
+                    <li><img src="img/icon-ubi.png" width="25px">Ornilla Doctor Kalea, 2, 48004 Bilbo, Bizkaia</li>
+                </ul>
+            </div>
+            <div class="redes">
+                <h3>REDES</h3>
+                <ul>
+                    <li><a href="https://www.instagram.com/rfebalonmano/?hl=es"><img src="img/icon-ig.png" width="50px">
+                            <p>@rfebalonmano</p>
+                        </a></li>
+                    <li><a
+                            href="https://twitter.com/RFEBalonmano?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                                src="img/icon-twt.png" width="50px">
+                            <p>@RFEBalonmano</p>
+                        </a></li>
+                    <li><a href="https://www.youtube.com/@RFEBM"><img src="img/icon-yt.png" width="50px">
+                            <p>@RFEBM</p>
+                        </a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="bottom-footer">
+            <div class="copy-footer">
+
+                <img src="img/logo-liga.png" alt="RFEVB" width="50px">
+                <p>Copyright RFEBM.</p>
+            </div>
+            <div class="info-footer">
+                | <a href="footer/condiciones-legles.html">Condiciones Legales</a> |
+                <a href="index.html">Inicio</a> |
+            </div>
+        </section>
+
+    </footer>
+</body>
+
+</html>

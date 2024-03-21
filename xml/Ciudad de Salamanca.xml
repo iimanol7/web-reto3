@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="estilo-equipo.xsl"?>
+<equipo nombre="SALAMANCA" escudo="../img/Ciudad de Salamanca.png" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="validacion-equipo.xsd">
+
+    <componente tipo="entrenador">
+        <imagen>e5.png</imagen>
+        <nombre>Enara </nombre>
+        <apellidos>Robles </apellidos>
+        <posicion>null</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j28.png</imagen>
+        <nombre>Amaya </nombre>
+        <apellidos>Valdemoro </apellidos>
+        <posicion>Portera</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j29.png</imagen>
+        <nombre>Shay </nombre>
+        <apellidos>Murphy </apellidos>
+        <posicion>Lateral Izquierdo</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j30.png</imagen>
+        <nombre>Roneeka </nombre>
+        <apellidos>Hodges</apellidos>
+        <posicion>Lateral Derecho</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j31.png</imagen>
+        <nombre>Erika </nombre>
+        <apellidos>da Souza</apellidos>
+        <posicion>Extremo Izquierda</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j32.png</imagen>
+        <nombre>Anna </nombre>
+        <apellidos>Montañana</apellidos>
+        <posicion>Extremo Derecha</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j6.png</imagen>
+        <nombre>Ester </nombre>
+        <apellidos>Somaza</apellidos>
+        <posicion>Pivote</posicion>
+    </componente>
+
+    <componente tipo="jugador">
+        <imagen>j33.png</imagen>
+        <nombre>Nuria </nombre>
+        <apellidos>Martínez </apellidos>
+        <posicion>Central</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j34.png</imagen>
+        <nombre>Claudia  </nombre>
+        <apellidos>Ramírez </apellidos>
+        <posicion>Central</posicion>
+    </componente>
+    <componente tipo="jugador">
+        <imagen>j36.png</imagen>
+        <nombre>Carolina  </nombre>
+        <apellidos>Sánchez </apellidos>
+        <posicion>Portera</posicion>
+    </componente>
+    
+</equipo>

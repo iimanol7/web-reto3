@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="jornadas.xsl"?>
+<jornadas temp="Temporada 1">
+    <jornada>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>22 - 21</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>21 - 29</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>27 - 33</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>27 - 25</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>24 - 26</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>28 - 27</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>24 - 33</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>26 - 23</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>22 - 24</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>33 - 33</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>30 - 23</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>22 - 26</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>22 - 25</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>26 - 30</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>30 - 29</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>20 - 26</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>21 - 25</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>31 - 30</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>26 - 33</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>30 - 29</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>28 - 23</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>31 - 27</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>29 - 23</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>27 - 27</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>33 - 24</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>27 - 32</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>33 - 33</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>24 - 33</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>26 - 31</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>25 - 25</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+    </jornada>
+</jornadas>

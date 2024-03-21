@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="jornadas.xsl"?>
+<jornadas temp="Temporada 3">
+    <jornada>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Zaragoza</visitante>
+        </partido>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+        <partido>
+            <local>Ciudad de Salamanca</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>FCBarcelona</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Athletic</visitante>
+        </partido>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Real Madrid</visitante>
+        </partido>
+        <partido>
+            <local>Base Sevilla</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+    </jornada>
+    <jornada>
+        <partido>
+            <local>Real Madrid</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Ciudad de Salamanca</visitante>
+        </partido>
+        <partido>
+            <local>Athletic</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>Base Sevilla</visitante>
+        </partido>
+        <partido>
+            <local>Real Zaragoza</local>
+    		<resultado>0 - 0</resultado>
+            <visitante>FCBarcelona</visitante>
+        </partido>
+    </jornada>
+</jornadas>
