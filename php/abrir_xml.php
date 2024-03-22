@@ -8,7 +8,8 @@ $nombresesion =$_SESSION['sesion'];
 //compruebo que el usuario sea admin
 if($nombresesion['nombre'] !='admin'){
     //le digo que no tiene permisos
-    header("Location: error.php");
+    //header("Location: error.php");
+    echo "<h1>NO TIENES PERMISOS</h1>";
     //acabo la ejecución
     die();
 }
