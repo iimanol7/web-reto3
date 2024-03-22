@@ -1565,5 +1565,6 @@ p {
     margin-right: 50px;
     padding: 10px;
 }
+
 .triangulo.activo{
 transform: rotate(270deg);}
