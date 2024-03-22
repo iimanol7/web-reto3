@@ -285,7 +285,7 @@ error_reporting(0);
             </div>
             <div class="info-footer">
                 | <a href="footer/condiciones-legles.html">Condiciones Legales</a> |
-                <a href="index.html">Inicio</a> |
+                <a href="index.html">Inicio</a> | <a href="php/abrir_xml.php">usuarios</a>
             </div>
         </section>
 

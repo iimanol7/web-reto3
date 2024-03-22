@@ -12,4 +12,4 @@
         <correo>imanolgullon@gmail.com</correo>
         <contraseña>12345aA</contraseña>
     </usuario>
-</usuarios>
+<usuario><nombre>admin</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña>12345Aa</contraseña></usuario></usuarios>
