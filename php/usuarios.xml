@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<usuarios>
+    <usuario>
+        <nombre>imanol</nombre>
+        <apellidos>gullon</apellidos>
+        <correo>imanolgullon@gmail.com</correo>
+        <contraseña>12345aA</contraseña>
+    </usuario>
+    <usuario>
+        <nombre>xavi</nombre>
+        <apellidos>gullon</apellidos>
+        <correo>imanolgullon@gmail.com</correo>
+        <contraseña>12345aA</contraseña>
+    </usuario>
+</usuarios>

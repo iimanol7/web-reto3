@@ -139,3 +139,15 @@ if (document.querySelector('.a')) {
 
 }
 
+/* MOSTRAR MAS OPCIONES DE USUARIO */ 
+if(document.getElementById('sesion')){
+    
+    const sesion = document.getElementById('sesion');
+    const sesionDown = document.getElementById('sesion-down');
+    const triangulo = document.querySelector('.triangulo');
+
+    sesion.addEventListener('click', ()=>{
+        sesionDown.classList.toggle('visible')
+        triangulo.classList.toggle('activo');
+    })
+}
