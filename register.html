@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <main class="main-form">
+        <section class="form-container" id="form-container">
+            <form class="form" id="form" action="php/procesar_register.php" method="post">
+                <section class="form-inputs">
+                    <h2>REGISTRARSE</h2>
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <input type="text" placeholder="Nombre" id="name" name="nombre">
+                        <input type="text" placeholder="Apellidos" id="surname" name="apellidos">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Datos de Contacto</legend>
+                        <input type="text" id="email" placeholder="Correo electrónico" name="email">
+                        <input type="password" id="password" class="password" placeholder="Contraseña"
+                            name="contraseña">
+                        <input type="password" id="repeat-password" class="repeat-password"
+                            placeholder="Repita su contraseña">
+                    </fieldset>
+                </section>
+                <div class="toggle-pass">
+                    <input type="checkbox" id="pass-checkbox" class="pass-checkbox">
+                    <p id="ver-contra">Mostrar contraseña</p>
+                </div>
+                <input type="submit" value="resgistrarse" class="submit" id="submit" name="submit"></input>
+                <div>
+                    <!-- parrafo donde aparecerán los requisitos de validación del formulario -->
+                    <p id="validacion"></p>
+                </div>
+                <a href="login.html" class="ya">¿Ya tienes una cuenta?</a>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

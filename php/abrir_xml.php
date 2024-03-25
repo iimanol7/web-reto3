@@ -9,7 +9,10 @@ $nombresesion =$_SESSION['sesion'];
 if($nombresesion['nombre'] !='admin'){
     //le digo que no tiene permisos
     //header("Location: error.php");
-    echo "<h1>NO TIENES PERMISOS</h1>";
+    echo "<div style='display:flex; justify-content:center;flex-direction:column;'>";
+    echo "<h1 style='text-align:center;'>NO TIENES PERMISOS</h1>";
+    echo "<img src='../img/jugador.jpg' style='margin:auto;'>";
+    echo "</div>";
     //acabo la ejecución
     die();
 }

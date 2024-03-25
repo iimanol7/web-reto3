@@ -93,8 +93,7 @@ if (document.getElementById('pass-checkbox')) {
 
         //SI TODO ESTÁ CORRECTO:
         if (esCorrecto) {
-            //Doy la bienvenida al usuario
-            alert("Registro realizado correctamente. Bienvenido, " + name.value + " " + surname.value + ".")
+           //DEJO QUE SE ENVIE (NO PONGO NADA)
 
         }else{
             e.preventDefault();
