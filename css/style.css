@@ -1549,11 +1549,9 @@ p {
     justify-content: center;
     align-items: center;
     gap: 3px;
-   
+   cursor: pointer;
 }
-.sesion:hover{
-    box-shadow: 0 0 1px gray;
-}
+
 
 .sesion img{
     border-radius: 50%;
@@ -1570,12 +1568,18 @@ p {
 }
 
 .sesion-down.visible{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     position: absolute;
     right: 60px;
     background-color: var(--header-bg-color);
     border: 1px solid gray;
     padding: 10px;
+
+}
+.sesion-down p:first-child{
+    font-weight: bold;
 
 }
 .sesion-down-no.visible{

@@ -11,8 +11,12 @@
             echo "</div>";
 
             echo "<div class='sesion-down' id='sesion-down'>";
-            echo "<p>".$nombresesion['nombre']." ".$nombresesion['apellidos'] ."</p>" ;
+            //si es el administrador
             echo "<p>".$nombresesion['email']."</p>" ;
+            echo "<p>".$nombresesion['nombre']." ".$nombresesion['apellidos'] ."</p>" ;
+            if($nombresesion['nombre']=='admin'){
+                echo "<p>Rol: Administrador<p>";
+            } else   echo "<p>Rol: Usuario<p>";
             echo "<a href='php/cerrar_sesion.php'>cerrar sesión</a>";
             echo "</div>";
 
@@ -30,7 +34,7 @@
 
             echo "<div class='sesion-down sesion-down-no' id='sesion-down'>";
            
-            echo "<a href='register.html'>Iniciar Sesión</a>";
+            echo "<a href='login.html'>Iniciar Sesión</a>";
             echo "</div>";
 
             echo "</div>";

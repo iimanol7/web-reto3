@@ -1,69 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <usuarios>
     <usuario>
-        <nombre>imanol</nombre>
-        <apellidos>gullon</apellidos>
-        <correo>imanolgullon@gmail.com</correo>
-        <contraseña>12345aA</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>xavi</nombre>
-        <apellidos>gullon</apellidos>
-        <correo>imanolgullon@gmail.com</correo>
-        <contraseña>12345aA</contraseña>
-    </usuario>
-    <usuario>
         <nombre>admin</nombre>
-        <apellidos>gullon</apellidos>
-        <correo>imanolgullon@gmail.com</correo>
-        <contraseña>12345Aa</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>pepee</nombre>
-        <apellidos>adsa</apellidos>
-        <correo>dsadasd@gmail.com</correo>
-        <contraseña>s6$XDv+Z+FU}..H</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>imanol</nombre>
-        <apellidos>gullon</apellidos>
-        <correo>imanolgullon@gmail.com</correo>
+        <apellidos/>
+        <correo>admin@gmail.com</correo>
         <contraseña>12345aA</contraseña>
     </usuario>
-    <usuario>
-        <nombre>admin</nombre>
-        <apellidos>gullon</apellidos>
-        <correo>imanolgullon@gmail.com</correo>
-        <contraseña>12345aA</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>imanol</nombre>
-        <apellidos>gullon</apellidos>
-        <correo>imanolgullon@gmail.com</correo>
-        <contraseña>12345Aa</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>imanol</nombre>
-        <apellidos>gullon</apellidos>
-        <correo>imanolgullon@gmail.com</correo>
-        <contraseña>12345aA</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>admin</nombre>
-        <apellidos>admin</apellidos>
-        <correo>admin</correo>
-        <contraseña>12345</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>IMAN</nombre>
-        <apellidos>IMAN</apellidos>
-        <correo>IMANOL@GMAIL.CPO</correo>
-        <contraseña>s6$XDv+Z+FU}..H</contraseña>
-    </usuario>
-    <usuario>
-        <nombre>imas</nombre>
-        <apellidos>dassd</apellidos>
-        <correo>sadsads@gail.cds</correo>
-        <contraseña>s6$XDv+Z+FU}..H</contraseña>
-    </usuario>
-<usuario><nombre>imanol</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña>12345aA</contraseña></usuario><usuario><nombre>imanolJU</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña>12345aA</contraseña></usuario><usuario><nombre>imanolDASDASD</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña>12345Aa</contraseña></usuario><usuario><nombre>imanols</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña> if($numNodos &gt; 0) {             //si el usuario existe             echo "&lt;script&gt;alert('Usuario YA existente. Pruebe con otro') &lt;/script&gt;";             include("../register.html");</contraseña></usuario><usuario><nombre>imanol</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña>12345aA</contraseña></usuario><usuario><nombre>imanol</nombre><apellidos>gullon</apellidos><correo>imanolgullonn@gmail.com</correo><contraseña>12345aA</contraseña></usuario></usuarios>
+<usuario><nombre>imanol</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña>12345aA</contraseña></usuario></usuarios>
