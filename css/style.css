@@ -163,6 +163,11 @@ nav li {
     display: none;
 }
 
+@media screen and (max-width: 1000px){
+    .sesion>.user>p{
+        display: none;
+    }
+}
 /* ocultar menu y hacerlo desplegable */
 @media screen and (max-width:760px) {
     .poligon {
@@ -1550,8 +1555,11 @@ p {
     align-items: center;
     gap: 3px;
    cursor: pointer;
+   padding: 2px;
 }
-
+.sesion:hover{
+    box-shadow: 0 0 3px gray;
+}
 
 .sesion img{
     border-radius: 50%;
@@ -1599,4 +1607,10 @@ transform: rotate(270deg);
     background-color: var(--header-bg-color);
     box-shadow: 0 6px 6px gray;
   
+}
+.user>p{
+    margin: 0px;
+}
+.user>p:nth-child(2){
+    font-size: 12px;
 }

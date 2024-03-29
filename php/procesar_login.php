@@ -32,6 +32,8 @@ if (file_exists($archivo_xml)) {
         $nombre = $usuario->getElementsByTagName('nombre')->item(0)->nodeValue;
         $apellidos = $usuario->getElementsByTagName('apellidos')->item(0)->nodeValue;
         $contraseña = $usuario->getElementsByTagName('contraseña')->item(0)->nodeValue;
+        $rol = $usuario->getElementsByTagName('rol')->item(0)->nodeValue;
+
 
         // Verificar si la contraseña coincide
         if ($contraseña === $pass) {
@@ -41,7 +43,8 @@ if (file_exists($archivo_xml)) {
                 'nombre' => $nombre,
                 'apellidos' => $apellidos,
                 'email' => $email,
-                'pass' => $pass
+                'pass' => $pass,
+                'rol' => $rol
             );
 
             // Redirigir al usuario a la página de inicio

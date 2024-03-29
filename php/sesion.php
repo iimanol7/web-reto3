@@ -5,6 +5,7 @@
             echo "<div class='sesion-main'>";
             echo "<div class='sesion' id='sesion'>";
             echo "<img src='img/jugador.jpg' width='40px'>";
+            echo "<div class='user'> <p>".$nombresesion['nombre']."</p> <p>".$nombresesion['rol']."</p></div>";
             //sesíon del usuario
             echo " <div class='triangulo'></div>";
         
@@ -14,9 +15,7 @@
             //si es el administrador
             echo "<p>".$nombresesion['email']."</p>" ;
             echo "<p>".$nombresesion['nombre']." ".$nombresesion['apellidos'] ."</p>" ;
-            if($nombresesion['nombre']=='admin'){
-                echo "<p>Rol: Administrador<p>";
-            } else   echo "<p>Rol: Usuario<p>";
+            echo "<p> Rol: ".$nombresesion['rol']."</p>" ;
             echo "<a href='php/cerrar_sesion.php'>cerrar sesión</a>";
             echo "</div>";
 

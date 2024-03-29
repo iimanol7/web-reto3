@@ -2,8 +2,9 @@
 <usuarios>
     <usuario>
         <nombre>admin</nombre>
-        <apellidos/>
+        <apellidos> </apellidos>
         <correo>admin@gmail.com</correo>
         <contraseña>12345aA</contraseña>
+        <rol>administrador</rol>
     </usuario>
-<usuario><nombre>imanol</nombre><apellidos>gullon</apellidos><correo>imanolgullon@gmail.com</correo><contraseña>12345aA</contraseña></usuario></usuarios>
+</usuarios>
