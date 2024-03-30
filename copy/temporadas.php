@@ -50,14 +50,64 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Obtener el nodo de la temporada seleccionada
     $temporadaSeleccionada = $temporadasQuery->item($temporadaSeleccionadaIndex);
-
     // Mostrar los datos de la temporada seleccionada
     $temporadaNombre = $temporadaSeleccionada->getAttribute('nombre');
     echo "<h2>Datos de la temporada $temporadaNombre:</h2>";
 
-    // Aquí puedes agregar la lógica para mostrar los datos que desees de la temporada seleccionada
-    // Por ejemplo, podrías consultar y mostrar los equipos y las jornadas de esa temporada.
-    }  
+        // Crear un nuevo documento XML
+    $nuevoXML = new DOMDocument('1.0', 'UTF-8');
+    $nuevoXML->formatOutput = true;
+
+    // Crear el elemento raíz para la nueva temporada
+    $nuevaTemporada = $nuevoXML->createElement('temporada');
+    $nuevaTemporada->setAttribute('nombre', $temporadaNombre);
+    $nuevoXML->appendChild($nuevaTemporada);
+
+    // Copiar equipos y jugadores de la temporada seleccionada al nuevo XML
+    $equiposQuery = $xpath->query('/datos/temporada[@nombre="' . $temporadaNombre . '"]/equipos/equipo');
+    foreach ($equiposQuery as $equipo) {
+        $nuevoEquipo = $nuevoXML->createElement('equipo');
+        $nuevoEquipo->setAttribute('nombre', $equipo->getAttribute('nombre'));
+        
+        $jugadoresQuery = $xpath->query('jugador', $equipo);
+        foreach ($jugadoresQuery as $jugador) {
+            $nuevoJugador = $nuevoXML->createElement('jugador', $jugador->nodeValue);
+            $nuevoEquipo->appendChild($nuevoJugador);
+        }
+        
+        $nuevaTemporada->appendChild($nuevoEquipo);
+    }
+
+    // Copiar jornadas y partidos de la temporada seleccionada al nuevo XML
+    $jornadasQuery = $xpath->query('/datos/temporada[@nombre="' . $temporadaNombre . '"]/jornadas/jornada');
+    foreach ($jornadasQuery as $jornada) {
+        $nuevaJornada = $nuevoXML->importNode($jornada, true);
+        $nuevaTemporada->appendChild($nuevaJornada);
+    }
+        $nuevoXML->save('nuevo_datos.xml');
+    
+        /*
+        // Aplicar la transformación XSLT al nuevo XML
+        $xsl = new DOMDocument();
+        $xsl->load('transformacion.xsl');
+    
+        $processor = new XSLTProcessor();
+        $processor->importStylesheet($xsl);
+    
+        // Imprimir la salida de la transformación
+        echo $processor->transformToXml($nuevoXML);  
+        */
+
+    
+
+    }else{
+     // Obtener el nodo de la última temporada
+    $ultimaTemporada = $temporadasQuery->item($indiceUltimaTemporada);
+
+    // Mostrar los datos de la última temporada
+    $ultimaTemporadaNombre = $ultimaTemporada->getAttribute('nombre');
+    echo "<h2>Datos de la temporada $ultimaTemporadaNombre):</h2>";
+    }
 
 
     include 'php/includes/footer.php';

@@ -10,16 +10,8 @@
     seleccionTemporada.value = seleccionGuardada;
     
 
-  
-    // Enviar el formulario automáticamente al cargar la página por primera vez
-    document.addEventListener('DOMContentLoaded', function() {
-        document.getElementById('form-temp').submit();
-        e.preventDefault();
-    });
-
-
     // cuando cambie la selección de temporada
-    seleccionTemporada.addEventListener('change', function(e) {
+    seleccionTemporada.addEventListener('change', function() {
         // Guardar la selección actual en el almacenamiento local
         localStorage.setItem('seleccionTemporada', seleccionTemporada.value);
 
