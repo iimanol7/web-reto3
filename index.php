@@ -23,7 +23,9 @@ error_reporting(0);
 <?php include('php/sesion.php'); ?>
     <!-- menú de navegación de la página web -->
    
-    <?php include('php/includes/header.php'); ?>
+    <?php include('php/includes/header.php'); 
+    
+    ?>
     <!-- Slider de imagenes de la portada -->
     <section class="container-slider">
         <ul class="slider">

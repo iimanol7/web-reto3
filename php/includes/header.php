@@ -12,8 +12,8 @@
             <!-- botón de cerrar para el menú para móviles -->
             <img src="img/close-menu.png" class="close-menu" id="close-menu">
             <ul class="menu-horizontal">
-                <li><a href="index.php" class="select">Inicio</a></li>
-                <li><a href="temporadas.xml">Temporadas</a></li>
+                <li><a href="index.php">Inicio</a></li>
+                <li><a href="temporadas.php">Temporadas</a></li>
                 <li><a href="noticias.php">Noticias</a></li>
             </ul>
         </nav>

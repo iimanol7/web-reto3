@@ -7,4 +7,11 @@
         <contraseña>12345aA</contraseña>
         <rol>administrador</rol>
     </usuario>
+    <usuario>
+        <nombre>imanol</nombre>
+        <apellidos> </apellidos>
+        <correo>imanol@gmail.com</correo>
+        <contraseña>12345aA</contraseña>
+        <rol>usuario</rol>
+    </usuario>
 </usuarios>
