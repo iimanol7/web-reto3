@@ -24,8 +24,8 @@ $correo = $xml->createElement('correo', $email);
 $nuevoNodo->appendChild($correo);
 $contraseña = $xml->createElement('contraseña', $pass);
 $nuevoNodo->appendChild($contraseña);
-$rol = $xml->createElement('rol', 'usuario');
-$nuevoNodo->appendChild($rol);
+$roll = $xml->createElement('rol', $rol);
+$nuevoNodo->appendChild($roll);
 //////////////////////////////////////////
 //guardo en la variable raiz la raiz del documento
 $raiz = $xml->documentElement;

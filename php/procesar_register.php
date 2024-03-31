@@ -13,7 +13,7 @@
     // Verificar si el archivo XML existe
     if (file_exists($archivo_xml)) {
         // Cargar el XML existente
-        $xml = new DOMDocument();
+        $xml = new DOMDocument(); 
         $xml->load($archivo_xml);
 
         #creo una nueva variable para usar con xpath
