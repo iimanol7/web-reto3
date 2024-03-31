@@ -37,7 +37,7 @@
             
             //si NO existe dicho usuario
            //llamo al generador de XML
-           include 'generar_xml.php';
+           include 'generar_xml_usuarios.php';
 
            //creo la sesión
            session_start();

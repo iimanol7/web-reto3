@@ -14,4 +14,39 @@
         <contraseña>12345aA</contraseña>
         <rol>usuario</rol>
     </usuario>
-</usuarios>
+    <usuario>
+        <nombre>Maria del carmen</nombre>
+        <apellidos>d</apellidos>
+        <correo>s.gullon8@gmail.com</correo>
+        <contraseña>12345aA</contraseña>
+        <rol>usuario</rol>
+    </usuario>
+    <usuario>
+        <nombre>zxz</nombre>
+        <apellidos>d</apellidos>
+        <correo>s.gullcon8@gmail.com</correo>
+        <contraseña>12345aA</contraseña>
+        <rol>usuario</rol>
+    </usuario>
+    <usuario>
+        <nombre>zxz</nombre>
+        <apellidos>dasda</apellidos>
+        <correo>sandra_imanol@hotmail.com</correo>
+        <contraseña>12345aA</contraseña>
+        <rol>usuario</rol>
+    </usuario>
+    <usuario>
+        <nombre>zxz</nombre>
+        <apellidos>cds</apellidos>
+        <correo>gullon67@gmail.com</correo>
+        <contraseña>12345aA</contraseña>
+        <rol>usuario</rol>
+    </usuario>
+    <usuario>
+        <nombre>zxz</nombre>
+        <apellidos>dsdsa</apellidos>
+        <correo>admindsad@gmail.com</correo>
+        <contraseña>12345aA</contraseña>
+        <rol>usuario</rol>
+    </usuario>
+<usuario><nombre>zxz</nombre><apellidos>sdcds</apellidos><correo>dscdscsdcs@gmaids.csd</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>asdsad</nombre><apellidos>asdsad</apellidos><correo>asdasdas@gds.dds</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>sad</nombre><apellidos>sadsa</apellidos><correo>sadasd@dsd.dd</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>dasd</nombre><apellidos>sadas</apellidos><correo>sdsdmin@gmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>admin</nombre><apellidos>dsadas</apellidos><correo>admasdindasd@gmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>cx</nombre><apellidos>vcxvxc</apellidos><correo>s.gullxvcvon8@gmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>dasd</nombre><apellidos>fdsfsd</apellidos><correo>sanfdsdra_imanol@hotmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>adminc</nombre><apellidos>xz</apellidos><correo>kakakaka@gmailcd.dd</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>rfd</nombre><apellidos>fcdx</apellidos><correo>adfsdfsdmAfsdfsdfin@gmail.com</correo><contraseña>adfsdfsdmAfsdfsdfin@gmail.com1</contraseña><rol>usuario</rol></usuario><usuario><nombre>ds</nombre><apellidos>dewe</apellidos><correo>gullofffn6ff7@gmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>c sd</nombre><apellidos>czx</apellidos><correo>adczcmin@gmail.com</correo><contraseña>adczcmin@gmail.com1A</contraseña><rol>usuario</rol></usuario><usuario><nombre>admind</nombre><apellidos>sadas</apellidos><correo>admdasdsindsad@gmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>admin</nombre><apellidos>cdscds</apellidos><correo>admicdscdscn@gcsdmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario><usuario><nombre>cdsc</nombre><apellidos>csdc</apellidos><correo>adcsdcsdmin@csdcsgmail.com</correo><contraseña>12345aA</contraseña><rol>usuario</rol></usuario></usuarios>
