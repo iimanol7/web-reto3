@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<temporada nombre="2022-2023">
+<temporada nombre="2024-2025">
   <equipos>
     <equipo nombre="Equipo 1">
       <jugador>Jugador 1</jugador>
       <jugador>Jugador 2</jugador>
-      <jugador>Jugador 3</jugador>
-      <jugador>Jugador 3</jugador>
       <jugador>Jugador 3</jugador>
     </equipo>
     <equipo nombre="Equipo 2">
