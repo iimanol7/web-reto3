@@ -1,3 +1,10 @@
+<?php
+error_reporting(0);
+    //inicio la sesión
+    session_start();
+    //la guardo en una variable para mayor rapidez
+    $nombresesion =$_SESSION['sesion'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,11 +36,18 @@
 echo "<form action='' method='post' id='form-temp'>";
 echo "<label for='temporada'>Seleccione una temporada:</label>";
 echo "<select name='temporada' id='temporada'>";
+foreach ($temporadasQuery as $indice => $temporada) {
+    $temporadaNombre = $temporada->getAttribute('nombre');
+    $selected = ($indice == $indiceUltimaTemporada) ? 'selected' : '';
+    echo "<option value='$indice' $selected>$temporadaNombre</option>";
+}
+/*
 for ($i = 0; $i < $numTemporadas; $i++) {
-    $temporadaNombre = $temporadasQuery->item($i)->getAttribute('nombre');
+    $temporadaNombre = $temporadasQuery->item($i)->attributes->getNamedItem('nombre')->nodeValue;
     $selected = ($i == $indiceUltimaTemporada) ? 'selected' : '';
     echo "<option value='$i' $selected>$temporadaNombre</option>";
 }
+*/
 echo "</select>";
 echo "</form>";
 

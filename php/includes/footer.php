@@ -40,13 +40,12 @@
                 | <a href="footer/condiciones-legles.html">Condiciones Legales</a> |
                 <a href="index.php">Inicio</a> 
                 <?php
-                session_start();
-                $sesion = $_SESSION['sesion'];
-                if($sesion['nombre'] == 'admin'){
+                $nombresesion =$_SESSION['sesion'];
+                if($nombresesion['rol'] == 'administrador'){
                     echo "| ";
                     echo "<a href='php/abrir_xml.php'>usuarios</a>";
                 }
-                ?>
+                ?>  
             </div>
         </section>
 
