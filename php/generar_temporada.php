@@ -13,9 +13,11 @@
            $nuevoXML = new DOMDocument('1.0', 'UTF-8');
            $nuevoXML->formatOutput = true;
      
+           //por cada temporada encontrada(solo va a haber una)
            foreach($temporada as $temp){
+            //importo el contenido
              $nuevaTemporada = $nuevoXML->importNode($temp, true);
-           $nuevoXML->appendChild($nuevaTemporada);
+             $nuevoXML->appendChild($nuevaTemporada);
            }
         }
 ?>

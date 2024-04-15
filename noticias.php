@@ -15,41 +15,18 @@
     <script src="js/script.js" defer></script>
     <link rel="shortcut icon" href="img/logo-liga.png" type="image/x-icon">
 </head>
-
+<?php
+    if($nombresesion==""||$nombresesion==null){
+        echo "<h2 style='text-align:center;margin-top:20px;'>Registrate para poder acceder al apartado de Noticias</h2>";
+        include('php/includes/form.html');
+        die();
+    }else {
+?>
 <body>
 <?php include('php/sesion.php') ?>
     <!-- menú de navegación de la página web -->
     <?php include('php/includes/header.php'); ?>
 
-    <!-- FORMULARIO OCULTO (hasta que se hace click en el botón "registrarse") -->
-    <section class="form-container" id="form-container">
-        <form class="form" id="form" action="php/procesar_register.php" method="post">
-            <img src="img/close-menu.png" class="close-form" id="close-form" width="30px">
-            <section class="form-inputs">
-                <fieldset>
-                    <legend>Datos Personales</legend>
-                    <input type="text" placeholder="Nombre" id="name" name="nombre">
-                    <input type="text" placeholder="Apellidos" id="surname" name="apellidos">
-                </fieldset>
-                <fieldset>
-                    <legend>Datos de Contacto</legend>
-                    <input type="text" id="email" placeholder="Correo electrónico" name="email">
-                    <input type="password" id="password" class="password" placeholder="Contraseña" name="contraseña">
-                    <input type="password" id="repeat-password" class="repeat-password"
-                        placeholder="Repita su contraseña">
-                </fieldset>
-            </section>
-            <div class="toggle-pass">
-                <input type="checkbox" id="pass-checkbox" class="pass-checkbox">
-                <p id="ver-contra">Mostrar contraseña</p>
-            </div>
-            <input type="submit" value="resgistrarse" class="submit" id="submit" name="submit"></input>
-            <div>
-                <!-- parrafo donde aparecerán los requisitos de validación del formulario -->
-                <p id="validacion"></p>
-            </div>
-        </form>
-    </section>
     <!-- Contenido de la página web -->
     <main class="noticias-main">
 
@@ -203,3 +180,8 @@
 </body>
 
 </html>
+
+<?php
+    }
+?>
+
