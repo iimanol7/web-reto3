@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         $nuevoXML->save('nuevo_datos.xml');
     
-        /*
+        
         // Aplicar la transformación XSLT al nuevo XML
         $xsl = new DOMDocument();
         $xsl->load('transformacion.xsl');
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
         // Imprimir la salida de la transformación
         echo $processor->transformToXml($nuevoXML);  
-        */
+        
 
     
 

@@ -33,12 +33,32 @@
             <jornada numero="1">
                 <!-- Partidos de la jornada 1 -->
                 <partido>
-                    <equipo local="Equipo 1" goles_local="2"/>
-                    <equipo visitante="Equipo 2" goles_visitante="1"/>
+                    <local>Equipo 1</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Equipo 2</visitante>
+                    <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
-                    <equipo local="Equipo 3" goles_local="0"/>
-                    <equipo visitante="Equipo 4" goles_visitante="2"/>
+                    <local>Equipo 3</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Equipo 4</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+            </jornada>
+
+            <jornada numero="2">
+                <!-- Partidos de la jornada 1 -->
+                <partido>
+                    <local>Equipo 3</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Equipo 2</visitante>
+                    <goles-visitante>1</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Equipo 1</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Equipo 4</visitante>
+                    <goles-visitante>2</goles-visitante>
                 </partido>
             </jornada>
             <!-- Otras jornadas -->
