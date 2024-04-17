@@ -102,8 +102,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <?php
     include 'php/includes/footer.php';
     ?>
- <section class="fix-btn">
-            <img src="img/luna.png" alt="modo-oscuro" class="icon-tema" id="icon-tema">
-        </section>
+    <section class="fix-btn">
+        <img src="img/luna.png" alt="modo-oscuro" class="icon-tema" id="icon-tema">
+    </section>
 </body>
 </html>
