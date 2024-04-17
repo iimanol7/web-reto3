@@ -13,11 +13,19 @@ error_reporting(0);
     <title>Temporadas</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/cargar_temporada.js" defer></script>
+    <script src="js/script.js" defer></script>
+
 </head>
 <body>
+      <!-- SESION -->
+    <?php include('php/sesion.php'); ?>
+    <!-- menú de navegación de la página web -->
+   
+    <?php include('php/includes/header.php'); 
     
+    ?>
+    <section class="temporadas  ">
     <?php
-    include('php/includes/header.php');
     // Cargar el archivo XML
     $xml = new DOMDocument();
     $xml->load('datos.xml');
@@ -66,18 +74,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         $nuevoXML->save('nuevo_datos.xml');
     
-        
-        // Aplicar la transformación XSLT al nuevo XML
-        $xsl = new DOMDocument();
-        $xsl->load('transformacion.xsl');
-    
-        $processor = new XSLTProcessor();
-        $processor->importStylesheet($xsl);
-    
-        // Imprimir la salida de la transformación
-        echo $processor->transformToXml($nuevoXML);  
-        
-
     
 
     }else{
@@ -91,9 +87,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $nuevoXML->save('nuevo_datos.xml');
     }
 
+    // Aplicar la transformación XSLT al nuevo XML
+    $xsl = new DOMDocument();
+    $xsl->load('transformacion.xsl');
 
+    $processor = new XSLTProcessor();
+    $processor->importStylesheet($xsl);
+
+    // Imprimir la salida de la transformación
+    echo $processor->transformToXml($nuevoXML);  
+
+    ?>
+    </section>
+    <?php
     include 'php/includes/footer.php';
     ?>
-
+ <section class="fix-btn">
+            <img src="img/luna.png" alt="modo-oscuro" class="icon-tema" id="icon-tema">
+        </section>
 </body>
 </html>

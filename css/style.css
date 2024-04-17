@@ -1557,6 +1557,7 @@ p {
     gap: 3px;
    cursor: pointer;
    padding: 2px;
+   z-index: 1;
 }
 .sesion:hover{
     box-shadow: 0 0 3px gray;
@@ -1614,4 +1615,21 @@ transform: rotate(270deg);
 }
 .user>p:nth-child(2){
     font-size: 12px;
+}
+
+
+.temporadas{
+    padding: 20px 10%;
+}
+
+.main-temporadas, .clasificacion-temporada{
+    margin: 20px 0;
+}
+
+.resultados-partidos{
+    display: flex;
+    align-items: center;
+}
+.x{
+
 }

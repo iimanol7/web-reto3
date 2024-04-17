@@ -1,28 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="transformacion.xsl"?>
 <datos>
-    <temporada nombre="2022-2023">
+    <temporada nombre="2022">
         <equipos>
-            <equipo nombre="Equipo 1">
+            <equipo nombre="Athletic" img="Athletic.png">
                 <jugador>Jugador 1</jugador>
                 <jugador>Jugador 2</jugador>
                 <jugador>Jugador 3</jugador>
                 <jugador>Jugador 3</jugador>
-
                 <jugador>Jugador 3</jugador>
-
             </equipo>
-            <equipo nombre="Equipo 2">
+            <equipo nombre="Barcelona" img="Barcelona.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
-            <equipo nombre="Equipo 3">
+            <equipo nombre="Madrid" img="Madrid.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
-            <equipo nombre="Equipo 4">
+            <equipo nombre="Sevilla" img="Sevilla.png">
+                <jugador>Jugador 4</jugador>
+                <jugador>Jugador 5</jugador>
+                <jugador>Jugador 6</jugador>
+            </equipo>
+            <equipo nombre="Zaragoza" img="Zaragoza.png">
+                <jugador>Jugador 4</jugador>
+                <jugador>Jugador 5</jugador>
+                <jugador>Jugador 6</jugador>
+            </equipo>
+            <equipo nombre="Salamanca" img="Salamanca.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
@@ -33,15 +41,21 @@
             <jornada numero="1">
                 <!-- Partidos de la jornada 1 -->
                 <partido>
-                    <local>Equipo 1</local>
+                    <local>Athletic</local>
                     <goles-local>2</goles-local>
-                    <visitante>Equipo 2</visitante>
+                    <visitante>Barcelona</visitante>
                     <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
-                    <local>Equipo 3</local>
+                    <local>Madrid</local>
                     <goles-local>2</goles-local>
-                    <visitante>Equipo 4</visitante>
+                    <visitante>Sevilla</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Zaragoza</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
                     <goles-visitante>2</goles-visitante>
                 </partido>
             </jornada>
@@ -49,40 +63,57 @@
             <jornada numero="2">
                 <!-- Partidos de la jornada 1 -->
                 <partido>
-                    <local>Equipo 3</local>
+                    <local>Athletic</local>
                     <goles-local>2</goles-local>
-                    <visitante>Equipo 2</visitante>
+                    <visitante>Madrid</visitante>
                     <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
-                    <local>Equipo 1</local>
+                    <local>Barcelona</local>
                     <goles-local>2</goles-local>
-                    <visitante>Equipo 4</visitante>
+                    <visitante>Zaragoza</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Sevilla</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
                     <goles-visitante>2</goles-visitante>
                 </partido>
             </jornada>
-            <!-- Otras jornadas -->
         </jornadas>
     </temporada>
-    <temporada nombre="2023-2024">
-        <!-- Mismo formato para equipos y jornadas -->
+
+    <temporada nombre="2023">
         <equipos>
-            <equipo nombre="Equipo 1">
+            <equipo nombre="Athletic" img="Athletic.png">
                 <jugador>Jugador 1</jugador>
                 <jugador>Jugador 2</jugador>
                 <jugador>Jugador 3</jugador>
+                <jugador>Jugador 3</jugador>
+                <jugador>Jugador 3</jugador>
             </equipo>
-            <equipo nombre="Equipo 2">
+            <equipo nombre="Barcelona" img="Barcelona.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
-            <equipo nombre="Equipo 3">
+            <equipo nombre="Madrid" img="Madrid.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
-            <equipo nombre="Equipo 4">
+            <equipo nombre="Sevilla" img="Sevilla.png">
+                <jugador>Jugador 4</jugador>
+                <jugador>Jugador 5</jugador>
+                <jugador>Jugador 6</jugador>
+            </equipo>
+            <equipo nombre="Zaragoza" img="Zaragoza.png">
+                <jugador>Jugador 4</jugador>
+                <jugador>Jugador 5</jugador>
+                <jugador>Jugador 6</jugador>
+            </equipo>
+            <equipo nombre="Salamanca" img="Salamanca.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
@@ -93,36 +124,80 @@
             <jornada numero="1">
                 <!-- Partidos de la jornada 1 -->
                 <partido>
-                    <equipo local="Equipo 1" goles_local="2"/>
-                    <equipo visitante="Equipo 2" goles_visitante="1"/>
+                    <local>Athletic</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Barcelona</visitante>
+                    <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
-                    <equipo local="Equipo 3" goles_local="0"/>
-                    <equipo visitante="Equipo 4" goles_visitante="2"/>
+                    <local>Madrid</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Sevilla</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Zaragoza</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
+                    <goles-visitante>2</goles-visitante>
                 </partido>
             </jornada>
-            <!-- Otras jornadas -->
+
+            <jornada numero="2">
+                <!-- Partidos de la jornada 1 -->
+                <partido>
+                    <local>Athletic</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Madrid</visitante>
+                    <goles-visitante>1</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Barcelona</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Zaragoza</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Sevilla</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+            </jornada>
         </jornadas>
     </temporada>
-    <temporada nombre="2024-2025">
-        <!-- Mismo formato para equipos y jornadas -->
+
+
+    <temporada nombre="2024">
         <equipos>
-            <equipo nombre="Equipo 1">
+            <equipo nombre="Athletic" img="Athletic.png">
                 <jugador>Jugador 1</jugador>
                 <jugador>Jugador 2</jugador>
                 <jugador>Jugador 3</jugador>
+                <jugador>Jugador 3</jugador>
+                <jugador>Jugador 3</jugador>
             </equipo>
-            <equipo nombre="Equipo 2">
+            <equipo nombre="Barcelona" img="Barcelona.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
-            <equipo nombre="Equipo 3">
+            <equipo nombre="Madrid" img="Madrid.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
-            <equipo nombre="Equipo 4">
+            <equipo nombre="Sevilla" img="Sevilla.png">
+                <jugador>Jugador 4</jugador>
+                <jugador>Jugador 5</jugador>
+                <jugador>Jugador 6</jugador>
+            </equipo>
+            <equipo nombre="Zaragoza" img="Zaragoza.png">
+                <jugador>Jugador 4</jugador>
+                <jugador>Jugador 5</jugador>
+                <jugador>Jugador 6</jugador>
+            </equipo>
+            <equipo nombre="Salamanca" img="Salamanca.png">
                 <jugador>Jugador 4</jugador>
                 <jugador>Jugador 5</jugador>
                 <jugador>Jugador 6</jugador>
@@ -133,15 +208,47 @@
             <jornada numero="1">
                 <!-- Partidos de la jornada 1 -->
                 <partido>
-                    <equipo local="Equipo 1" goles_local="2"/>
-                    <equipo visitante="Equipo 2" goles_visitante="1"/>
+                    <local>Athletic</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Barcelona</visitante>
+                    <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
-                    <equipo local="Equipo 3" goles_local="0"/>
-                    <equipo visitante="Equipo 4" goles_visitante="2"/>
+                    <local>Madrid</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Sevilla</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Zaragoza</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
+                    <goles-visitante>2</goles-visitante>
                 </partido>
             </jornada>
-            <!-- Otras jornadas -->
+
+            <jornada numero="2">
+                <!-- Partidos de la jornada 1 -->
+                <partido>
+                    <local>Athletic</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Madrid</visitante>
+                    <goles-visitante>1</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Barcelona</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Zaragoza</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Sevilla</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
+                    <goles-visitante>4</goles-visitante>
+                </partido>
+            </jornada>
         </jornadas>
     </temporada>
+
 </datos>

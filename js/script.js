@@ -145,8 +145,18 @@ if(document.getElementById('sesion')){
     const sesionDown = document.getElementById('sesion-down');
     const triangulo = document.querySelector('.triangulo');
 
-    sesion.addEventListener('click', ()=>{
-        sesionDown.classList.toggle('visible')
-        triangulo.classList.toggle('activo');
-    })
+    document.addEventListener('click', function(e) {
+        
+      
+        if (e.target !== sesion && !sesion.contains(e.target)) {
+           //Cuando se haga click fuera de la sesión
+           sesionDown.classList.remove('visible') 
+           triangulo.classList.remove('activo')
+            
+        }else{
+            sesionDown.classList.toggle('visible') 
+            triangulo.classList.toggle('activo')
+        }
+    });
+   
 }
