@@ -42,13 +42,13 @@
                     <local>Athletic</local>
                     <goles-local>2</goles-local>
                     <visitante>Barcelona</visitante>
-                    <goles-visitante>1</goles-visitante>
+                    <goles-visitante>3</goles-visitante>
                 </partido>
                 <partido>
                     <local>Madrid</local>
                     <goles-local>2</goles-local>
                     <visitante>Sevilla</visitante>
-                    <goles-visitante>2</goles-visitante>
+                    <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
                     <local>Zaragoza</local>
@@ -62,9 +62,9 @@
                 <!-- Partidos de la jornada 1 -->
                 <partido>
                     <local>Athletic</local>
-                    <goles-local>2</goles-local>
+                    <goles-local>5</goles-local>
                     <visitante>Madrid</visitante>
-                    <goles-visitante>1</goles-visitante>
+                    <goles-visitante>3</goles-visitante>
                 </partido>
                 <partido>
                     <local>Barcelona</local>
@@ -76,8 +76,9 @@
                     <local>Sevilla</local>
                     <goles-local>2</goles-local>
                     <visitante>Salamanca</visitante>
-                    <goles-visitante>4</goles-visitante>
+                    <goles-visitante>2</goles-visitante>
                 </partido>
             </jornada>
+
         </jornadas>
     </temporada>

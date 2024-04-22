@@ -22,53 +22,30 @@
                 <th>Goles en Contra</th>
               </tr>
               <xsl:variable name="position" select="0" />
-              <xsl:for-each
-                select="//equipo[generate-id() = generate-id(key('equipo', @nombre)[1])]">
-                <xsl:sort
-                  select="sum(//partido[local=current()/@nombre]/goles-local) + sum(//partido[visitante=current()/@nombre]/goles-visitante)"
-                  data-type="number" order="descending" />
-                <tr>
-                  <td>
-                    <xsl:value-of select="$position + position()" />
-                  </td>
+              <xsl:for-each select="//equipo[generate-id() = generate-id(key('equipo', @nombre)[1])]">
+              <xsl:sort select="(count(//partido[local=current()/@nombre and goles-local > goles-visitante]) + count(//partido[visitante=current()/@nombre and goles-visitante > goles-local])) * 3 + count(//partido[local=current()/@nombre and goles-local = goles-visitante or visitante=current()/@nombre and goles-visitante = goles-local])" data-type="number" order="descending" />
+              <xsl:variable name="equipo" select="." />
+              <xsl:variable name="victorias" select="count(//partido[local=$equipo/@nombre and goles-local &gt; goles-visitante]) + count(//partido[visitante=$equipo/@nombre and goles-visitante &gt; goles-local])" />
+              <xsl:variable name="empates" select="count(//partido[local=$equipo/@nombre and goles-local = goles-visitante or visitante=$equipo/@nombre and goles-visitante = goles-local])" />
+              <xsl:variable name="derrotas" select="count(//partido[local=$equipo/@nombre and goles-local &lt; goles-visitante]) + count(//partido[visitante=$equipo/@nombre and goles-visitante &lt; goles-local])" />
+              <xsl:variable name="goles_favor" select="sum(//partido[local=$equipo/@nombre]/goles-local) + sum(//partido[visitante=$equipo/@nombre]/goles-visitante)" />
+              <xsl:variable name="goles_contra" select="sum(//partido[local=$equipo/@nombre]/goles-visitante) + sum(//partido[visitante=$equipo/@nombre]/goles-local)" />
+              <xsl:variable name="puntos" select="($victorias * 3) + $empates" />
+              <tr>
+                  <td><xsl:value-of select="$position + position()" /></td>
                   <td class="equipo-tabla">
                     <div>
                       <img src="img/{@img}" />
                       <xsl:value-of select="@nombre" />
                     </div>
                   </td>
-                  <td>
-                    <xsl:variable name="victorias"
-                      select="count(//partido[local=current()/@nombre and goles-local &gt; goles-visitante]) + count(//partido[visitante=current()/@nombre and goles-visitante &gt; goles-local])" />
-                    <xsl:variable name="empates"
-                      select="count(//partido[local=current()/@nombre and goles-local = goles-visitante or visitante=current()/@nombre and goles-visitante = goles-local])" />
-                    <xsl:value-of select="($victorias * 3) + ($empates)" />
-                  </td>
-                  <td>
-                    <xsl:value-of
-                      select="count(//partido[local=current()/@nombre or visitante=current()/@nombre])" />
-                  </td>
-                  <td>
-                    <xsl:value-of
-                      select="count(//partido[local=current()/@nombre and goles-local &gt; goles-visitante]) + count(//partido[visitante=current()/@nombre and goles-visitante &gt; goles-local])" />
-                  </td>
-                  <td>
-                    <xsl:value-of
-                      select="count(//partido[local=current()/@nombre and goles-local = goles-visitante or visitante=current()/@nombre and goles-visitante = goles-local])" />
-                  </td>
-                  <td>
-                    <xsl:value-of
-                      select="count(//partido[local=current()/@nombre and goles-local &lt; goles-visitante]) + count(//partido[visitante=current()/@nombre and goles-visitante &lt; goles-local])" />
-                  </td>
-                  <td>
-                    <xsl:value-of
-                      select="sum(//partido[local=current()/@nombre]/goles-local) + sum(//partido[visitante=current()/@nombre]/goles-visitante)" />
-                  </td>
-                  <td>
-                    <xsl:variable name="goles_en_contra"
-                      select="sum(//partido[local=current()/@nombre]/goles-visitante) + sum(//partido[visitante=current()/@nombre]/goles-local)" />
-                    <xsl:value-of select="$goles_en_contra" />
-                  </td>
+                  <td><xsl:value-of select="$puntos" /></td>
+                  <td><xsl:value-of select="count(//partido[local=$equipo/@nombre or visitante=$equipo/@nombre])" /></td>
+                  <td><xsl:value-of select="$victorias" /></td>
+                  <td><xsl:value-of select="$empates" /></td>
+                  <td><xsl:value-of select="$derrotas" /></td>
+                  <td><xsl:value-of select="$goles_favor" /></td>
+                  <td><xsl:value-of select="$goles_contra" /></td>
                 </tr>
               </xsl:for-each>
             </table>
