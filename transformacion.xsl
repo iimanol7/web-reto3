@@ -24,6 +24,9 @@
               <xsl:variable name="position" select="0" />
               <xsl:for-each select="//equipo[generate-id() = generate-id(key('equipo', @nombre)[1])]">
               <xsl:sort select="(count(//partido[local=current()/@nombre and goles-local > goles-visitante]) + count(//partido[visitante=current()/@nombre and goles-visitante > goles-local])) * 3 + count(//partido[local=current()/@nombre and goles-local = goles-visitante or visitante=current()/@nombre and goles-visitante = goles-local])" data-type="number" order="descending" />
+              <xsl:sort select="sum(//partido[local=current()/@nombre]/goles-local) + sum(//partido[visitante=current()/@nombre]/goles-visitante)" data-type="number" order="descending" />
+              <xsl:sort select="sum(//partido[local=current()/@nombre]/goles-visitante) + sum(//partido[visitante=current()/@nombre]/goles-local)" data-type="number" order="ascending" />
+              
               <xsl:variable name="equipo" select="." />
               <xsl:variable name="victorias" select="count(//partido[local=$equipo/@nombre and goles-local &gt; goles-visitante]) + count(//partido[visitante=$equipo/@nombre and goles-visitante &gt; goles-local])" />
               <xsl:variable name="empates" select="count(//partido[local=$equipo/@nombre and goles-local = goles-visitante or visitante=$equipo/@nombre and goles-visitante = goles-local])" />
