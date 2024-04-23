@@ -1670,3 +1670,49 @@ transform: rotate(270deg);
     top: 15px;
     left: 55px;
 }
+
+
+.navegacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20vh 0 30px 0;
+}
+.navegacion input{
+    width: 200px;
+    margin: 10px 0 10px 10px;
+    background-color: var(--header-bg-color);
+}
+.btn_navegacion{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn_navegacion a, .btn_editar a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background: var(--header-bg-color);
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.btn_navegacion a:active, .btn_editar a:active{
+    box-shadow: 1px 1px 1px gray;
+}
+
+.btn_editar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#aplicar{
+    display: none;
+}
+
+.btn_editar.editando #aplicar{
+    display: block;
+}

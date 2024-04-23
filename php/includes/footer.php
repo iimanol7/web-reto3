@@ -43,7 +43,7 @@
                 $nombresesion =$_SESSION['sesion'];
                 if($nombresesion['rol'] == 'administrador'){
                     echo "| ";
-                    echo "<a href='php/abrir_xml.php'>usuarios</a>";
+                    echo "<a href='php/navegacion/navegacion.php'>usuarios</a>";
                 }
                 ?>  
             </div>

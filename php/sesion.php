@@ -9,7 +9,7 @@
                     echo " <div class='triangulo'></div>";
                 echo "</div>";
 
-                echo "<div class='sesion-down visible' id='sesion-down'>";
+                echo "<div class='sesion-down' id='sesion-down'>";
                     echo "<div class='card_header'>";
                         echo "<img src='img/jugador.jpg' width='70px'>";
                         echo "<h3>".$nombresesion['nombre']."</h3>" ;

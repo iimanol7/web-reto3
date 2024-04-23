@@ -160,3 +160,29 @@ if(document.getElementById('sesion')){
     });
    
 }
+
+if(document.getElementById('navegacion')){
+    const editar = document.querySelector('#editar')
+    const aplicar = document.querySelector('#aplicar')
+    const div = document.querySelector('.btn_editar')
+
+    console.log(aplicar)
+
+    editar.addEventListener('click', ()=>{
+        const inputs= document.querySelectorAll('input')
+
+        inputs.forEach(input=>{
+            input.removeAttribute('readonly')
+        })
+        div.classList.add('editando')
+    })
+
+    aplicar.addEventListener('click', ()=>{
+        const inputs= document.querySelectorAll('input')
+        inputs.forEach(input=>{
+            input.setAttribute('readonly', true)
+        })
+        div.classList.remove('editando')
+    })
+
+}
