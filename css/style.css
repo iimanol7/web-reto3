@@ -1589,7 +1589,7 @@ p {
     width: 200px;
     height: 240px;
 }
-.sesion-down p:first-child{
+.sesion-down p:nth-child(2){
     font-weight: bold;
 
 }
@@ -1669,27 +1669,36 @@ transform: rotate(270deg);
     position: absolute;
     top: 15px;
     left: 55px;
+    color: black;    
 }
 
 
 .navegacion{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin: 20vh 0 30px 0;
+    margin: 20vh auto 30px auto;
+    padding: 15px;
+    width: 80%;
+   
 }
 .navegacion input{
-    width: 200px;
+    width: 100%;
     margin: 10px 0 10px 10px;
-    background-color: var(--header-bg-color);
+    background-color: rgb(236, 236, 236);
+    margin: 0;
 }
+
+.navegacion.editando input{
+    background-color: white;
+}
+
 .btn_navegacion{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
 }
 
-.btn_navegacion a, .btn_editar a{
+.btn_navegacion a, .btn_editar a, .btn_volver a{
     text-decoration: none;
     color: black;
     padding: 10px;
@@ -1698,7 +1707,7 @@ transform: rotate(270deg);
     box-shadow: 3px 3px 3px gray;
 }
 
-.btn_navegacion a:active, .btn_editar a:active{
+.btn_navegacion a:active, .btn_editar a:active, .btn_volver a:active{
     box-shadow: 1px 1px 1px gray;
 }
 
@@ -1715,4 +1724,18 @@ transform: rotate(270deg);
 
 .btn_editar.editando #aplicar{
     display: block;
+}
+
+.container_usuarios{
+    background-color: rgb(222, 220, 220);
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    height: 430px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px gray;
+}
+.btn_volver{
+    margin-top: 20px;
+    text-align: center;
 }

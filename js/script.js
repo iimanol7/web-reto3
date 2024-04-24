@@ -109,7 +109,7 @@ if (document.querySelector('#link-form')) {
     const linkForm = document.getElementById('link-form')
     const form = document.getElementById('form-container')
     const closeForm = document.getElementById('close-form')
-    console.log(form)
+
     linkForm.addEventListener('click', (e) => {
         e.preventDefault()
         //hacemos visible el formulario
@@ -165,8 +165,8 @@ if(document.getElementById('navegacion')){
     const editar = document.querySelector('#editar')
     const aplicar = document.querySelector('#aplicar')
     const div = document.querySelector('.btn_editar')
-
-    console.log(aplicar)
+    const form = document.querySelector('#navegacion')
+    const primerInput = document.querySelector('input')
 
     editar.addEventListener('click', ()=>{
         const inputs= document.querySelectorAll('input')
@@ -175,6 +175,8 @@ if(document.getElementById('navegacion')){
             input.removeAttribute('readonly')
         })
         div.classList.add('editando')
+        form.classList.add('editando')
+        primerInput.focus();
     })
 
     aplicar.addEventListener('click', ()=>{
@@ -183,6 +185,7 @@ if(document.getElementById('navegacion')){
             input.setAttribute('readonly', true)
         })
         div.classList.remove('editando')
+        form.classList.remove('editando')
     })
 
 }

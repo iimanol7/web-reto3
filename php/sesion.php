@@ -16,7 +16,7 @@
                     echo "</div>";
 
                     echo "<div class='card_body'>";
-                        echo "<h4>".$nombresesion['nombre']." ".$nombresesion['apellidos'] ."</h4>" ;
+                        echo "<p>¡Bienvenido ".$nombresesion['nombre']."!</p>";
                         echo "<p>".$nombresesion['email']."</p>" ;
                         //echo "<p class='rol'>Rol:</p>" ;
                         echo "<p> <span>Rol:</span>".$nombresesion['rol']."</p>" ;
