@@ -1704,7 +1704,7 @@ transform: rotate(270deg);
     padding: 10px;
     background: var(--header-bg-color);
     border-radius: 5px;
-    box-shadow: 3px 3px 3px gray;
+    box-shadow: 3px 3px 3px gray;       
 }
 
 .btn_navegacion a:active, .btn_editar a:active, .btn_volver a:active{

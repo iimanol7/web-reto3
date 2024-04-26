@@ -40,6 +40,13 @@
                     <div>
                       <img src="img/{@img}" />
                       <xsl:value-of select="@nombre" />
+                      <div class="info_equipo">
+
+                        <xsl:for-each select="//equipo/jugador">
+                        <p><xsl:value-of select="nombre"/></p>
+                        </xsl:for-each>
+
+                      </div>
                     </div>
                   </td>
                   <td><xsl:value-of select="$puntos" /></td>

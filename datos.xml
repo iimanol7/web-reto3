@@ -4,36 +4,89 @@
     <temporada nombre="2022">
         <equipos>
             <equipo nombre="Athletic" img="Athletic.png">
-                <jugador>Jugador 1</jugador>
-                <jugador>Jugador 2</jugador>
-                <jugador>Jugador 3</jugador>
-                <jugador>Jugador 3</jugador>
-                <jugador>Jugador 3</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Barcelona" img="Barcelona.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
             <equipo nombre="Madrid" img="Madrid.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Sevilla" img="Sevilla.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Zaragoza" img="Zaragoza.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Salamanca" img="Salamanca.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <!-- Otros equipos con sus jugadores -->
         </equipos>
@@ -83,40 +136,94 @@
             </jornada>
         </jornadas>
     </temporada>
+
 
     <temporada nombre="2023">
         <equipos>
             <equipo nombre="Athletic" img="Athletic.png">
-                <jugador>Jugador 1</jugador>
-                <jugador>Jugador 2</jugador>
-                <jugador>Jugador 3</jugador>
-                <jugador>Jugador 3</jugador>
-                <jugador>Jugador 3</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Barcelona" img="Barcelona.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
             <equipo nombre="Madrid" img="Madrid.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Sevilla" img="Sevilla.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Zaragoza" img="Zaragoza.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Salamanca" img="Salamanca.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <!-- Otros equipos con sus jugadores -->
         </equipos>
@@ -166,41 +273,95 @@
             </jornada>
         </jornadas>
     </temporada>
+
 
 
     <temporada nombre="2024">
         <equipos>
             <equipo nombre="Athletic" img="Athletic.png">
-                <jugador>Jugador 1</jugador>
-                <jugador>Jugador 2</jugador>
-                <jugador>Jugador 3</jugador>
-                <jugador>Jugador 3</jugador>
-                <jugador>Jugador 3</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Barcelona" img="Barcelona.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
                 <jugador>Jugador 6</jugador>
             </equipo>
             <equipo nombre="Madrid" img="Madrid.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Sevilla" img="Sevilla.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Zaragoza" img="Zaragoza.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <equipo nombre="Salamanca" img="Salamanca.png">
-                <jugador>Jugador 4</jugador>
-                <jugador>Jugador 5</jugador>
-                <jugador>Jugador 6</jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                </jugador>
             </equipo>
             <!-- Otros equipos con sus jugadores -->
         </equipos>
@@ -211,13 +372,13 @@
                     <local>Athletic</local>
                     <goles-local>2</goles-local>
                     <visitante>Barcelona</visitante>
-                    <goles-visitante>3</goles-visitante>
+                    <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
                     <local>Madrid</local>
-                    <goles-local>8</goles-local>
+                    <goles-local>2</goles-local>
                     <visitante>Sevilla</visitante>
-                    <goles-visitante>1</goles-visitante>
+                    <goles-visitante>2</goles-visitante>
                 </partido>
                 <partido>
                     <local>Zaragoza</local>
@@ -231,9 +392,9 @@
                 <!-- Partidos de la jornada 1 -->
                 <partido>
                     <local>Athletic</local>
-                    <goles-local>5</goles-local>
+                    <goles-local>2</goles-local>
                     <visitante>Madrid</visitante>
-                    <goles-visitante>3</goles-visitante>
+                    <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
                     <local>Barcelona</local>
@@ -248,9 +409,9 @@
                     <goles-visitante>2</goles-visitante>
                 </partido>
             </jornada>
-
         </jornadas>
     </temporada>
+
 
 
 </datos>
