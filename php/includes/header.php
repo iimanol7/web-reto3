@@ -20,4 +20,20 @@
         
         <!-- botón de apertura del menú para móviles -->
         <img src="img/open-menu.png" class="open-menu" id="open-menu">
+        <?php
+            // Cargar el archivo XML
+            $xml = new DOMDocument();
+            $xml->load('datos.xml');
+            $xpath = new DOMXPath($xml);    
+
+            $temporadasQuery = $xpath->query('/datos/temporada');
+            $numTemporadas = $temporadasQuery->length;
+            $ultimaTemporada = $numTemporadas-1;
+            $temporadaActual = $temporadasQuery->item($ultimaTemporada);
+            $temporadaNombre = $temporadaActual->getAttribute('nombre');
+
+
+            echo "<p class='actual'>Temporada $temporadaNombre</p>";
+        ?>
     </header>
+  

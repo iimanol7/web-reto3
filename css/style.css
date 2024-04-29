@@ -1739,3 +1739,72 @@ transform: rotate(270deg);
     margin-top: 20px;
     text-align: center;
 }
+
+.info_equipo{
+    background-color: var(--header-bg-color); 
+    position: fixed; 
+    inset: 0;
+    z-index: 5; 
+    transform: scale(0);
+    transition: 0.3s;
+    padding: 20px 70px;
+}
+
+.aequipo{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+}
+
+.info_equipo:target{
+    transform: scale(1);  
+}
+.info_equipo >img:first-child{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.foto_jugador{
+    width: 50px;
+}
+.jugadores_equipo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    place-items: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.header_equipo{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 10px;
+}
+.escudo{
+    border-radius: 50%;
+    outline: 1px solid black;
+    width: 100px;
+}
+.jugador_equipo{
+    display: flex;
+    align-items: center;
+    background-color: rgb(222, 222, 222);
+    width: 100%;
+    border-radius: 5px;
+    padding: 15px;
+    gap: 10px;
+}
+.jugador_equipo img{
+    border-radius: 50%;
+}
+.actual{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    z-index: 2;
+    font-weight: bold;
+}

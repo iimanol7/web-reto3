@@ -189,3 +189,18 @@ if(document.getElementById('navegacion')){
     })
 
 }
+
+
+if(document.querySelector('.close_equipo')){
+    const close = document.querySelectorAll('.close_equipo');
+    const info = document.querySelectorAll('.info_equipo')
+    console.log(info)
+
+    close.forEach(cerrar=>{
+        cerrar.addEventListener('click',()=>{
+            window.history.back();
+        })
+    })
+    
+
+}

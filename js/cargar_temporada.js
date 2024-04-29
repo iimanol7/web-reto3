@@ -1,4 +1,3 @@
-
     // Obtener el formulario y el menú desplegable
     const formulario = document.getElementById('form-temp');
     const seleccionTemporada = document.getElementById('temporada');

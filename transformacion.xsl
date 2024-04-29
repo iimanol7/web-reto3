@@ -37,17 +37,11 @@
               <tr>
                   <td><xsl:value-of select="$position + position()" /></td>
                   <td class="equipo-tabla">
-                    <div>
+                    <a href="#{@nombre}" class="aequipo"> 
                       <img src="img/{@img}" />
                       <xsl:value-of select="@nombre" />
-                      <div class="info_equipo">
-
-                        <xsl:for-each select="//equipo/jugador">
-                        <p><xsl:value-of select="nombre"/></p>
-                        </xsl:for-each>
-
-                      </div>
-                    </div>
+                      
+                    </a>
                   </td>
                   <td><xsl:value-of select="$puntos" /></td>
                   <td><xsl:value-of select="count(//partido[local=$equipo/@nombre or visitante=$equipo/@nombre])" /></td>
@@ -59,6 +53,27 @@
                 </tr>
               </xsl:for-each>
             </table>
+          </section>
+
+          <section>
+            <xsl:for-each select="//equipo">
+              <div class="info_equipo" id="{@nombre}">
+                <img src="img/close-menu.png" class="close_equipo"/>
+                <div class="header_equipo">
+                  <img src="img/{@nombre}.png" class="escudo"/>
+                  <h2><xsl:value-of select="@nombre"/></h2>
+                </div>
+                <div class="jugadores_equipo">
+                  <xsl:for-each select="jugador">
+                  <div class="jugador_equipo">
+                    <img src="img/{imagen}" class="foto_jugador"/>
+                    <p><xsl:value-of select="nombre"/></p>
+                  </div>
+                  </xsl:for-each>
+                </div>
+              </div>
+            </xsl:for-each>
+
           </section>
 
           <h2>Jornadas</h2>

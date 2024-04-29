@@ -171,7 +171,7 @@ error_reporting(0);
                     </table>
                     <!-- botón para acceder a la clasificacuón -->
                     <div class="ver-mas ver-mas-tabla">
-                        <a href="temporadas.xml">Descubrir clasificación</a>
+                        <a href="temporadas.php">Descubrir clasificación</a>
                         <div class="triangulo"></div>
                     </div>
                 </section>

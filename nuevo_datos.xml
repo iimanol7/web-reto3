@@ -1,89 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<temporada nombre="2023">
+<temporada nombre="2022">
         <equipos>
             <equipo nombre="Athletic" img="Athletic.png">
                 <jugador>
-                    <nombre>Jugador 1</nombre>
+                    <nombre>Monster</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
-                    <nombre>Jugador 1</nombre>
+                    <nombre>Maricon</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
-                    <nombre>Jugador 1</nombre>
+                    <nombre>Moros no</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
-                    <nombre>Jugador 1</nombre>
+                    <nombre>Txemama</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Homer</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Beñat</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Gay</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Endica</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Panchito</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Abascal</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
             </equipo>
             <equipo nombre="Barcelona" img="Barcelona.png">
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
-                <jugador>Jugador 6</jugador>
             </equipo>
             <equipo nombre="Madrid" img="Madrid.png">
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
             </equipo>
             <equipo nombre="Sevilla" img="Sevilla.png">
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
             </equipo>
             <equipo nombre="Zaragoza" img="Zaragoza.png">
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
             </equipo>
             <equipo nombre="Salamanca" img="Salamanca.png">
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
                     <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+            </equipo>
+            <!-- Otros equipos con sus jugadores -->
+        </equipos>
+        <jornadas>
+            <jornada numero="1">
+                <!-- Partidos de la jornada 1 -->
+                <partido>
+                    <local>Athletic</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Barcelona</visitante>
+                    <goles-visitante>1</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Madrid</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Sevilla</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Zaragoza</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+            </jornada>
+
+            <jornada numero="2">
+                <!-- Partidos de la jornada 1 -->
+                <partido>
+                    <local>Athletic</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Madrid</visitante>
+                    <goles-visitante>1</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Barcelona</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Zaragoza</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+                <partido>
+                    <local>Sevilla</local>
+                    <goles-local>2</goles-local>
+                    <visitante>Salamanca</visitante>
+                    <goles-visitante>2</goles-visitante>
+                </partido>
+            </jornada>
+        </jornadas>
+    </temporada>
+<temporada nombre="2022">
+        <equipos>
+            <equipo nombre="Athletic" img="Athletic.png">
+                <jugador>
+                    <nombre>Monster</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Maricon</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Moros no</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Txemama</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Homer</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Beñat</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Gay</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Endica</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Panchito</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Abascal</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+            </equipo>
+            <equipo nombre="Barcelona" img="Barcelona.png">
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+            </equipo>
+            <equipo nombre="Madrid" img="Madrid.png">
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+            </equipo>
+            <equipo nombre="Sevilla" img="Sevilla.png">
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+            </equipo>
+            <equipo nombre="Zaragoza" img="Zaragoza.png">
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+            </equipo>
+            <equipo nombre="Salamanca" img="Salamanca.png">
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 1</nombre>
+                    <imagen>jugador.jpg</imagen>
                 </jugador>
             </equipo>
             <!-- Otros equipos con sus jugadores -->
