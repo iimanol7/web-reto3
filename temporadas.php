@@ -42,7 +42,7 @@ error_reporting(0);
 
 // Crear el formulario con el menú desplegable de temporadas
 echo "<form action='' method='post' id='form-temp'>";
-echo "<label for='temporada'>Seleccione una temporada:</label>";
+echo "<label for='temporada'>Temporada:</label>";
 echo "<select name='temporada' id='temporada'>";
 foreach ($temporadasQuery as $indice => $temporada) {
     $temporadaNombre = $temporada->getAttribute('nombre');
@@ -56,8 +56,9 @@ for ($i = 0; $i < $numTemporadas; $i++) {
     echo "<option value='$i' $selected>$temporadaNombre</option>";
 }
 */
-echo "</select>";
+echo "</select>"; 
 echo "</form>";
+ 
 
 // Si se ha enviado el formulario
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

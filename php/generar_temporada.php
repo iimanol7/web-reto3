@@ -7,7 +7,7 @@
          $numNodos = $temporada->length;
          if($numNodos > 0) {
      
-             echo "<h2>Datos de la temporada $temporadaNombre:</h2>";
+             echo "<h1>Temporada $temporadaNombre</h1>";
      
            // Crear un nuevo documento XML
            $nuevoXML = new DOMDocument('1.0', 'UTF-8');

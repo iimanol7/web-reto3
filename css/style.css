@@ -59,6 +59,8 @@ header {
     grid-area: logo;
     display: grid;
     place-content: center;
+    text-decoration: none;
+    color: black;
 }
 
 .titulo {
@@ -611,7 +613,7 @@ tr th {
     max-width: 800px;
     height: 400px;
     margin: 20px auto;
-    background-color: var(--header-bg-color);
+    background-color: var(--body-bg-color);
     border-radius: 10px;
     box-shadow: 0 0 6px gray;
     overflow: hidden;
@@ -626,7 +628,7 @@ tr th {
     list-style: none;
     width: 100%;
     opacity: 0;
-    background-color: var(--header-bg-color);
+    background-color: var(--body-bg-color);
     padding: 20px;
     transition: 0.1s;
 }
@@ -672,9 +674,9 @@ tr th {
     width: 100%;
     max-width: 800px;
     padding: 22px;
-    background-color: var(--header-bg-color);
+    background-color: var(--body-bg-color);
     border-radius: 10px;
-    box-shadow: 0 0px 12px gray;
+    box-shadow: 0 0px 6px gray;
     overflow: hidden;
     margin-bottom: 50px;
 }
@@ -828,6 +830,8 @@ tr th {
         border-radius: 0px;
         box-shadow: 0 0 0;
         border: solid gray 0.5px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .container-jornadas {
@@ -1755,6 +1759,11 @@ transform: rotate(270deg);
     text-decoration: none;
     align-items: center;
     color: black;
+
+}
+.aequipo:hover{
+    text-decoration: underline;
+    transition: 0.3s;
 }
 
 .info_equipo:target{
@@ -1784,11 +1793,7 @@ transform: rotate(270deg);
     font-size: 20px;
     gap: 10px;
 }
-.escudo{
-    border-radius: 50%;
-    outline: 1px solid black;
-    width: 100px;
-}
+
 .jugador_equipo{
     display: flex;
     align-items: center;
@@ -1801,10 +1806,51 @@ transform: rotate(270deg);
 .jugador_equipo img{
     border-radius: 50%;
 }
-.actual{
+
+.container_escudo{
+    border-radius: 50%;
+    outline: 1px solid black;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#temporada{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--body-bg-color);
+    color: var(--body-text-color);
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+
+.header_temporadas{
+    display: flex;
+    align-items: center;
+}
+.poya{
     position: absolute;
-    top: 120px;
-    left: 50px;
-    z-index: 2;
-    font-weight: bold;
+    display: block;
+    text-align: center;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+#easterEggImage {
+    display: none;
+    position: fixed;
+    inset:0;
+    margin:auto;
+    height:100vh;
+    width:100%;
+    z-index:100;
+}
+.clasificacion-temporada{
+    overflow: auto;
 }

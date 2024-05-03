@@ -8,7 +8,6 @@
       <body>
         <main class="main-temporadas">
           <section class="clasificacion-temporada">
-            <h2>Clasificación</h2>
             <table class="">
               <tr>
                 <th>Posición</th>
@@ -60,8 +59,10 @@
               <div class="info_equipo" id="{@nombre}">
                 <img src="img/close-menu.png" class="close_equipo"/>
                 <div class="header_equipo">
-                  <img src="img/{@nombre}.png" class="escudo"/>
-                  <h2><xsl:value-of select="@nombre"/></h2>
+                  <div class="container_escudo">
+                  <img src="img/{@nombre}.png" width="80px"/>
+                  </div>
+                  <h2><xsl:value-of select="@nombre"/> (<xsl:value-of select="//@nombre"/>)</h2>
                 </div>
                 <div class="jugadores_equipo">
                   <xsl:for-each select="jugador">

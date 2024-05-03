@@ -16,6 +16,9 @@ error_reporting(0);
     <title>Inicio</title>
     <script src="js/script.js" defer></script>
     <link rel="shortcut icon" href="img/logo-liga.png" type="image/x-icon">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/egg.js/1.0/egg.min.js"></script>
+
+
 </head>
 
 <body>
@@ -207,6 +210,23 @@ error_reporting(0);
         </section>
 
     </main>
+
+<img id="easterEggImage" src="img/jugador.jpg" alt="Easter Egg" width="300px" height="200px">
+
+<script>
+    var egg = new Egg();
+    egg
+        .addCode("s,u,u,u,u", function() {
+            var img = document.getElementById("easterEggImage");
+            img.style.display = "block";
+            setTimeout(function(){
+                img.style.display = "none";
+            }, 30); // 2 segundos
+        })
+        .listen();
+</script>
+
+
     <!-- pie de página -->
     <?php include ('php/includes/footer.php'); ?>
 </body>
