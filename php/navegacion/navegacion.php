@@ -10,7 +10,7 @@
     $sesion = $_SESSION['sesion'];
 
     //compruebo que el usuario sea admin
-    if($sesion['rol'] !='administrador'){
+    if($sesion['rol'] !='Admin'){
         //le digo que no tiene permisos
         //header("Location: error.php");
         echo "<div style='display:flex; justify-content:center;flex-direction:column;'>";
@@ -20,6 +20,7 @@
         //acabo la ejecución
         die();
     }
+
 ?>
 
 <?php

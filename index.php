@@ -4,6 +4,7 @@ error_reporting(0);
     session_start();
     //la guardo en una variable para mayor rapidez
     $nombresesion =$_SESSION['sesion'];
+    include("php/usuarios.php");
 ?>
 
 <!DOCTYPE html>
@@ -200,8 +201,8 @@ error_reporting(0);
             <img src="img/colaboradores.png">
             <!-- imagen de colaboradores partida en 2, para móviles -->
             <div class="oculto">
-                <img src="img/colaboradores2.png" alt="">
-                <img src="img/colaboradores3.png" alt="">
+                <img src="img/colaboradores2.png">
+                <img src="img/colaboradores3.png">
             </div>
         </section>
 
@@ -211,7 +212,8 @@ error_reporting(0);
 
     </main>
 
-<img id="easterEggImage" src="img/jugador.jpg" alt="Easter Egg" width="300px" height="200px">
+<img id="easterEggImage" class="imgEaster" src="img/jugador.jpg" alt="Easter Egg">
+<img id="easterEggImage2" class="imgEaster" src="img/vinicius-blanco.png" alt="Easter Egg">
 
 <script>
     var egg = new Egg();
@@ -221,7 +223,17 @@ error_reporting(0);
             img.style.display = "block";
             setTimeout(function(){
                 img.style.display = "none";
-            }, 30); // 2 segundos
+            }, 30); 
+        })
+        .listen();
+        var egg2 = new Egg();
+    egg2
+        .addCode("m,o,n,o", function() {
+            var img = document.getElementById("easterEggImage2");
+            img.style.display = "block";
+            setTimeout(function(){
+                img.style.display = "none";
+            }, 30); 
         })
         .listen();
 </script>

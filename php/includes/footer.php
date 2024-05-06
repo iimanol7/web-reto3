@@ -41,7 +41,7 @@
                 <a href="index.php">Inicio</a> 
                 <?php
                 $nombresesion =$_SESSION['sesion'];
-                if($nombresesion['rol'] == 'administrador'){
+                if($nombresesion['rol'] == 'Admin'){
                     echo "| ";
                     echo "<a href='php/navegacion/navegacion.php'>usuarios</a>";
                 }
