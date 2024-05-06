@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<temporada nombre="2023">
+<temporada nombre="2022">
         <equipos>
             <equipo nombre="Athletic" img="Athletic.png">
                 <jugador>
@@ -7,15 +7,39 @@
                     <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
-                    <nombre>Jugador 1</nombre>
+                    <nombre>Jugador 2</nombre>
                     <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
-                    <nombre>Jugador 1</nombre>
+                    <nombre>Jugador 3</nombre>
                     <imagen>jugador.jpg</imagen>
                 </jugador>
                 <jugador>
-                    <nombre>Jugador 1</nombre>
+                    <nombre>Jugador 4</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 5</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 6</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 7</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 8</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 9</nombre>
+                    <imagen>jugador.jpg</imagen>
+                </jugador>
+                <jugador>
+                    <nombre>Jugador 10</nombre>
                     <imagen>jugador.jpg</imagen>
                 </jugador>
             </equipo>
@@ -116,15 +140,15 @@
                 <!-- Partidos de la jornada 1 -->
                 <partido>
                     <local>Athletic</local>
-                    <goles-local>4</goles-local>
+                    <goles-local>2</goles-local>
                     <visitante>Barcelona</visitante>
-                    <goles-visitante>6</goles-visitante>
+                    <goles-visitante>1</goles-visitante>
                 </partido>
                 <partido>
                     <local>Madrid</local>
                     <goles-local>2</goles-local>
                     <visitante>Sevilla</visitante>
-                    <goles-visitante>4</goles-visitante>
+                    <goles-visitante>2</goles-visitante>
                 </partido>
                 <partido>
                     <local>Zaragoza</local>

@@ -831,7 +831,7 @@ tr th {
         box-shadow: 0 0 0;
         border: solid gray 0.5px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap ;
     }
 
     .container-jornadas {
@@ -1782,8 +1782,7 @@ transform: rotate(270deg);
 }
 .jugadores_equipo{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(min(400px, 100%), 1fr));    
     gap: 50px;
     margin-top: 50px;
 }

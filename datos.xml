@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="datos.xsd"?>
 <?xml-stylesheet type="text/xsl" href="transformacion.xsl"?>
 <datos>
     <temporada nombre="2022">
         <equipos>
-            <equipo nombre="Athletic" img="Athletic.png">
+            <equipo nombre='Athletic' img='Athletic.png'>
                 <jugador>
                     <nombre>Jugador 1</nombre>
                     <imagen>jugador.jpg</imagen>
