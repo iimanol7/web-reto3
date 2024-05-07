@@ -1183,7 +1183,7 @@ section.visible {
 .form {
     background-color: var(--section-bg-color);
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 5px gray;
     padding: 20px;
     max-width: 350px;
     position: relative;
@@ -1690,10 +1690,12 @@ transform: rotate(270deg);
     margin: 10px 0 10px 10px;
     background-color: rgb(236, 236, 236);
     margin: 0;
+    color: rgb(97, 97, 97);
 }
 
 .navegacion.editando input{
     background-color: white;
+    color: black;
 }
 
 .btn_navegacion{
