@@ -31,7 +31,7 @@ if (file_exists($archivo_xml)) {
         // Obtener los datos del usuario
         $nombre = $usuario->getElementsByTagName('nombre')->item(0)->nodeValue;
         $apellidos = $usuario->getElementsByTagName('apellidos')->item(0)->nodeValue;
-        $contraseña = $usuario->getElementsByTagName('contraseña')->item(0)->nodeValue;
+        $contraseña = $usuario->getElementsByTagName('contrasena')->item(0)->nodeValue;
         $rol = $usuario->getElementsByTagName('rol')->item(0)->nodeValue;
 
 
@@ -81,7 +81,7 @@ if (file_exists($archivo_xml)) {
                 // Obtener los datos del usuario
                 $nombre = $usuario->getElementsByTagName('nombre')->item(0)->nodeValue;
                 $apellidos = $usuario->getElementsByTagName('apellidos')->item(0)->nodeValue;
-                $contraseña = $usuario->getElementsByTagName('contraseña')->item(0)->nodeValue;
+                $contraseña = $usuario->getElementsByTagName('contrasena')->item(0)->nodeValue;
                 $rol = $usuario->getElementsByTagName('rol')->item(0)->nodeValue;
         
         

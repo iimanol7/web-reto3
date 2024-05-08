@@ -65,7 +65,7 @@
         $apellidos = $usuarioSeleccionado->getElementsByTagName("apellidos")->item(0)->nodeValue;
         $correo = $usuarioSeleccionado->getElementsByTagName("correo")->item(0)->nodeValue;
         $rol = $usuarioSeleccionado->getElementsByTagName("rol")->item(0)->nodeValue;
-        $pass = $usuarioSeleccionado->getElementsByTagName("contraseña")->item(0)->nodeValue;
+        $pass = $usuarioSeleccionado->getElementsByTagName("contrasena")->item(0)->nodeValue;
     
     echo "<section class='container_usuarios'>";
         echo "<form class='navegacion' id='navegacion'>";

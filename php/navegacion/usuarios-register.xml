@@ -4,7 +4,7 @@
         <nombre>monster</nombre>
         <apellidos> </apellidos>
         <correo>monster@gmail.com</correo>
-        <contraseña>12345aA</contraseña>
+        <contrasena>12345aA</contrasena>
         <rol>usuario</rol>
     </usuario>
 
@@ -12,21 +12,21 @@
         <nombre>xzcxz</nombre>
         <apellidos>zxczx</apellidos>
         <correo>zxcxzcczx@dsds.cs</correo>
-        <contraseña>12345aA</contraseña>
+        <contrasena>12345aA</contrasena>
         <rol>usuario</rol>
     </usuario>
     <usuario>
         <nombre>imanol</nombre>
         <apellidos>gullon</apellidos>
         <correo>imanolgullon@gmail.com</correo>
-        <contraseña>12345aA</contraseña>
+        <contrasena>12345aA</contrasena>
         <rol>usuario</rol>
     </usuario>
     <usuario>
         <nombre>cszxxxxx</nombre>
         <apellidos>xxxx</apellidos>
         <correo>xxxxx@gmaid.cde</correo>
-        <contraseña>12345aA</contraseña>
+        <contrasena>12345aA</contrasena>
         <rol>usuario</rol>
     </usuario>
 </usuarios>

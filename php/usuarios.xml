@@ -3,7 +3,7 @@
         <usuario>
             <nombre>admin</nombre>
             <correo>admin@gmail.com</correo>
-            <contraseña>1234</contraseña>
+            <contrasena>1234</contrasena>
             <rol>Admin</rol>
         </usuario>
     </usuarios>

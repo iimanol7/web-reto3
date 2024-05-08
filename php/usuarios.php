@@ -22,7 +22,6 @@
 
         // Crear un nuevo documento XML
         $nuevoxmlUsuarios = new DOMDocument('1.0', 'UTF-8');
-        $nuevoxmlUsuarios->formatOutput = true;
 
         foreach ($usuarios as $usuario) {
             #por cada registro encontrado

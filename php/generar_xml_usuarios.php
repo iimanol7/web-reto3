@@ -22,7 +22,7 @@ $apellidos = $xml->createElement('apellidos', $surname);
 $nuevoNodo->appendChild($apellidos);
 $correo = $xml->createElement('correo', $email);
 $nuevoNodo->appendChild($correo);
-$contraseña = $xml->createElement('contraseña', $pass);
+$contraseña = $xml->createElement('contrasena', $pass);
 $nuevoNodo->appendChild($contraseña);
 $roll = $xml->createElement('rol', $rol);
 $nuevoNodo->appendChild($roll);
