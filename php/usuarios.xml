@@ -6,22 +6,4 @@
             <contraseña>1234</contraseña>
             <rol>Admin</rol>
         </usuario>
-        <usuario>
-            <nombre>Usuario</nombre>
-            <correo>Usuario@gmail.com</correo>
-            <contraseña>1234</contraseña>
-            <rol>Usuario</rol>
-        </usuario>
-        <usuario>
-            <nombre>Aitor</nombre>
-            <correo>Aitor@gmail.com</correo>
-            <contraseña>1234</contraseña>
-            <rol>Usuario</rol>
-        </usuario>
-        <usuario>
-            <nombre>Arbitro</nombre>
-            <correo>Arbitro@gmail.com</correo>
-            <contraseña>1234</contraseña>
-            <rol>Arbitro</rol>
-        </usuario>
     </usuarios>

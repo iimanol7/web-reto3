@@ -2,7 +2,9 @@
         <a href="index.php" class="logo">
             <img src="img/logo-liga.png" alt="RFEBM" width="120px">
             <?php
+            //si el archivo existe
             // Cargar el archivo XML
+            if (file_exists("datos.xml")) {
             $xml = new DOMDocument();
             $xml->load('datos.xml');
             $xpath = new DOMXPath($xml);    
@@ -15,6 +17,7 @@
 
 
             echo "<p class='actual'>Temporada $temporadaNombre</p>";
+            }
         ?>
         </a>
         <div class="titulo">

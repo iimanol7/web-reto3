@@ -104,7 +104,7 @@ if (file_exists($archivo_xml)) {
                     echo "<script>alert('Contraseña incorrecta. Por favor, inténtelo de nuevo.'); window.location.href = '../login.html';</script>";
                 }
             }else{
-                echo "<script>alert('Usuario NO existente. Pruebe otra vez maricon'); window.location.href= '../login.html'; </script>";
+                echo "<script>alert('Usuario NO existente. Pruebe otra vez'); window.location.href= '../login.html'; </script>";
             }
 
         }

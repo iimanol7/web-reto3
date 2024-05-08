@@ -1,10 +1,10 @@
 <?php
-    error_reporting(0);
+    //error_reporting(0);
     //inicio la sesión
     session_start();
     //la guardo en una variable para mayor rapidez
     $nombresesion =$_SESSION['sesion'];
-    include("php/usuarios.php");
+    //include("php/usuarios.php");
 ?>
 
 <!DOCTYPE html>
