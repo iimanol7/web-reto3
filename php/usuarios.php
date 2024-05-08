@@ -31,10 +31,5 @@
         }
         $nuevoxmlUsuarios->save('php/usuarios.xml');
     }
-    else{
-    echo "<h1>No hay users</h1>";
-    die();
-
-    }
-
+    
 ?>

@@ -18,4 +18,10 @@
             <contraseña>1234</contraseña>
             <rol>Usuario</rol>
         </usuario>
+        <usuario>
+            <nombre>Arbitro</nombre>
+            <correo>Arbitro@gmail.com</correo>
+            <contraseña>1234</contraseña>
+            <rol>Arbitro</rol>
+        </usuario>
     </usuarios>

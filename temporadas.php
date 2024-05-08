@@ -73,19 +73,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         //genero el XML con los datos de esa temporada
         include ('php/generar_temporada.php');
         
-        $nuevoXML->save('nuevo_datos.xml');
-    
-    
-
     }else{
     //selecciono a mano la última temporada
     $temporadaSeleccionadaIndex = $numTemporadas - 1;
     
     //genero el XML con los datos de esa temporada
     include ('php/generar_temporada.php');
-
-      
-      $nuevoXML->save('nuevo_datos.xml');
+     
     }
 
     // Aplicar la transformación XSLT al nuevo XML

@@ -17,7 +17,6 @@
 </head>
 <?php
     if($nombresesion==""||$nombresesion==null){
-        echo "<h2 style='text-align:center;margin-top:20px;'>Registrate para poder acceder al apartado de Noticias</h2>";
         echo "<a href='index.php' class='poya'>No Gracias.</a>";
         include('php/includes/form.html');
         die();

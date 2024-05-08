@@ -1,6 +1,6 @@
 <?php
 // Ruta del archivo XML
-$archivo_xml = 'usuarios.xml';
+$archivo_xml = 'navegacion/usuarios-register.xml';
 
 // Verificar si el archivo XML existe
 if (file_exists($archivo_xml)) {
@@ -14,7 +14,7 @@ if (file_exists($archivo_xml)) {
     $xml->appendChild($raiz);
 }
 
-// Crear un nuevo nodo 'alumno' y agregar los datos
+// Crear un nuevo nodo 'usuario' y agregar los datos
 $nuevoNodo = $xml->createElement('usuario');
 $nombre = $xml->createElement('nombre', $name);
 $nuevoNodo->appendChild($nombre);
@@ -29,7 +29,7 @@ $nuevoNodo->appendChild($roll);
 //////////////////////////////////////////
 //guardo en la variable raiz la raiz del documento
 $raiz = $xml->documentElement;
-// Agregar el nuevo nodo 'alumno' al XML
+// Agregar el nuevo nodo 'usuario' al XML
 $raiz->appendChild($nuevoNodo);
 /////////////////////////////////////
 

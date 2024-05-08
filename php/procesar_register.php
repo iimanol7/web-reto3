@@ -8,7 +8,7 @@
 
     
     //compruebo que el usuario no exista
-    $archivo_xml = 'usuarios.xml';
+    $archivo_xml = 'navegacion/usuarios-register.xml';
 
     // Verificar si el archivo XML existe
     if (file_exists($archivo_xml)) {
