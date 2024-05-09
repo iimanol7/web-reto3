@@ -48,7 +48,7 @@
                   </td>
                   <td class="equipo-tabla">
                     <a href="#{@nombre}" class="aequipo">
-                      <img src="img/{@img}" />
+                      <img src="../app/src/img/{@img}" />
                       <xsl:value-of select="@nombre" />
                     </a>
                   </td>
@@ -83,14 +83,14 @@
                 <img src="img/close-menu.png" class="close_equipo" />
                 <div class="header_equipo">
                   <div class="container_escudo">
-                    <img src="img/{@img}" width="80px" />
+                    <img src="../app/src/img/{@img}" width="80px" />
                   </div>
                   <h2><xsl:value-of select="@nombre" /> (<xsl:value-of select="//@nombre" />)</h2>
                 </div>
                 <div class="jugadores_equipo">
                   <xsl:for-each select="jugador">
                     <div class="jugador_equipo">
-                      <img src="img/jugadores/{imagen}" class="foto_jugador" />
+                      <img src="../app/src/img/jugadores/{imagen}" class="foto_jugador" />
                       <p>
                         <xsl:value-of select="nombre" />
                       </p>
@@ -109,7 +109,7 @@
                     id="jornada{$numeroJornada}">
                     <xsl:for-each select="partido">
                       <div class="partido">
-                        <img src="img/{escudo-local}" width="100px" />
+                        <img src="../app/src/img/{escudo-local}" width="100px" />
                         <div class="resultados-partidos">
                           <p>
                             <xsl:value-of select="goles-local" />
@@ -119,7 +119,7 @@
                             <xsl:value-of select="goles-visitante" />
                           </p>
                         </div>
-                        <img src="img/{escudo-visitante}" width="100px" />
+                        <img src="../app/src/img/{escudo-visitante}" width="100px" />
                       </div>
                     </xsl:for-each>
                   </li>
